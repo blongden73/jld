@@ -1,3 +1,48 @@
 body {
   background-color: $gold;
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.jl-wrapper {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.jl-logo-wrapper {
+  height: 100vh;
+  position: relative;
+
+  svg {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    path {
+      will-change: opacity;
+      opacity: 0;
+      animation-name: fadeIn;
+      animation-duration: 0.4s;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+
+      @for $i from 1 through 22{
+      &:nth-child(#{$i}){
+        animation-delay: $i * 50ms;
+      }
+    }
+    }
+  }
+}
