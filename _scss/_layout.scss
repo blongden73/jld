@@ -218,8 +218,8 @@ ul {
   top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 300px;
-  height: 400px;
+  width: 380px;
+  height: 500px;
   opacity: 0;
   animation-name: cards;
   animation-duration: 0.3s;
@@ -280,7 +280,7 @@ header {
   opacity: 0;
   animation-name: header;
   animation-duration: 0.3s;
-  animation-delay: 3.5s;
+  animation-delay: 4s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
 
@@ -303,7 +303,7 @@ footer {
   opacity: 0;
   animation-name: footer;
   animation-duration: 0.3s;
-  animation-delay: 3.5s;
+  animation-delay: 4s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
 }
