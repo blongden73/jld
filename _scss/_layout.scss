@@ -95,6 +95,7 @@ body {
   font-family: 'Monument Grotesk';
   font-weight: 100;
   font-size: 16px;
+  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -200,7 +201,7 @@ ul {
 }
 
 .jl-wrapper {
-  width: 99%;
+  width: 98%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -324,6 +325,10 @@ header {
   animation-delay: 4s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
+  position: fixed;
+  top: 10px;
+  left: 0px;
+  width: 100%;
 
   p {
     margin: 0;
@@ -339,6 +344,17 @@ header {
 .jl-projects {
   height: 100vh;
   overflow: hidden;
+}
+
+.project-card {
+  width: 485px;
+  height: auto;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 }
 
 footer {
