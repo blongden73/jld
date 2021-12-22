@@ -171,8 +171,22 @@ body {
 h1 {
   font-family: 'Boogy Brut Poster WBL White';
   font-weight: 100;
-  font-size: 66px;
+  font-size: 90px;
   line-height: 1;
+}
+
+[class="h1"] {
+  font-family: 'Boogy Brut Poster WBL White';
+  font-weight: 100;
+  font-size: 90px;
+  line-height: 1;
+
+  & > * {
+    font-family: 'Boogy Brut Poster WBL White';
+    font-weight: 100;
+    font-size: 90px;
+    line-height: 1;
+  }
 }
 
 h2 {
@@ -198,6 +212,17 @@ ul {
 
 .space-bwtn {
   justify-content: space-between;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.eighty {
+  width: 80%;
 }
 
 .jl-wrapper {
@@ -355,6 +380,12 @@ header {
     height: auto;
     object-fit: cover;
   }
+}
+
+.jl-about-wrapper {
+  height: 100vh;
+  position: relative;
+  background-color: #fff;
 }
 
 footer {
