@@ -1,4 +1,22 @@
 @font-face {
+    font-family: 'Boogy Brut Poster WBL';
+    src: url('../assets/BoogyBrutPosterWEBL-Black.woff2') format('woff2'),
+        url('../assets/BoogyBrutPosterWEBL-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boogy Brut Poster WBL White';
+    src: url('../assets/BoogyBrutPosterWEBL-White.woff2') format('woff2'),
+        url('../assets/BoogyBrutPosterWEBL-White.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'Monument Grotesk';
     src: url('../assets/MonumentGrotesk-Italic.woff2') format('woff2'),
         url('../assets/MonumentGrotesk-Italic.woff') format('woff');
@@ -77,6 +95,8 @@ body {
   font-family: 'Monument Grotesk';
   font-weight: 100;
   font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @keyframes header {
@@ -115,8 +135,8 @@ body {
     transform: translateY(0px);
   }
   100% {
-    opacity: 0;
-    transform: translateY(-20px);
+    opacity: 0.1;
+    transform: translateY(5px);
   }
 }
 
@@ -147,10 +167,11 @@ body {
   }
 }
 
-
-
 h1 {
-  font-size: 36px;
+  font-family: 'Boogy Brut Poster WBL White';
+  font-weight: 100;
+  font-size: 66px;
+  line-height: 1;
 }
 
 h2 {
@@ -195,6 +216,8 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
     pointer-events: none;
+    overflow: visible;
+    z-index: -10;
 
     path {
       will-change: opacity;
@@ -226,6 +249,7 @@ ul {
   animation-delay: 4s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
+  z-index: 10;
 
   .card {
     position: absolute;
@@ -234,7 +258,7 @@ ul {
     top: 0;
     left: 0;
     transform: rotate(0deg);
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.5s;
 
     &:nth-child(2) {
       animation-name: cardsTwo;
@@ -310,6 +334,11 @@ header {
   & > * {
     margin-right: 50px;
   }
+}
+
+.jl-projects {
+  height: 100vh;
+  overflow: hidden;
 }
 
 footer {

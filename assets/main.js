@@ -7,13 +7,13 @@ function cardsHover() {
   cardStack.addEventListener('mouseenter', function(){
     setTimeout(function(){
       cardStack.classList.add('wait');
-    }, 500);
+    }, 800);
   });
 
   document.addEventListener('scroll', function(){
     setTimeout(function(){
       cardStack.classList.remove('wait');
-    }, 1000);
+    }, 2000);
   });
 }
 
