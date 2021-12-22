@@ -259,6 +259,23 @@ ul {
     }
   }
 
+  &.wait {
+    .card {
+      &:nth-child(2) {
+        top: -130px !important;
+        left: 460px !important;
+      }
+      &:nth-child(3) {
+        top: 150px !important;
+        left: -130px !important;
+      }
+      &:nth-child(1) {
+        top: -150px !important;
+        left: -688px !important;
+      }
+    }
+  }
+
   &:hover .card{
     &:nth-child(2) {
       top: -30px;
