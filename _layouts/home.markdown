@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="jl-wrapper">
   <div class="jl-projects">
     <h1>Jaqueline Lavitt Designs</h1>
