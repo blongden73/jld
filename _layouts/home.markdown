@@ -4,7 +4,6 @@ layout: default
 
 <div class="jl-wrapper">
   <div class="jl-projects">
-    <h1>Jaqueline Lavitt Designs</h1>
     {% assign projects = site.home-page %}
     <div class="flex">
       {% for project in projects %}
@@ -38,6 +37,7 @@ layout: default
 </div>
 <div class="jl-wrapper">
   <div class="flex">
-    <div class="left"></div><div class="right"></div>
+    <div class="left"></div>
+    <div class="right"></div>
   </div>
 </div>

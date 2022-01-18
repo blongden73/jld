@@ -362,7 +362,7 @@ header {
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
   position: fixed;
-  top: 10px;
+  top: 20px;
   left: 0px;
   width: 100%;
 
@@ -385,6 +385,7 @@ header {
 .jl-projects {
   height: auto;
   padding-bottom: 100px;
+  padding-top: 200px;
 
   h1 {
     margin-top: 95px;
@@ -402,9 +403,10 @@ header {
 }
 
 .project-card {
-  width: 420px;
+  width: 360px;
   height: auto;
   position: relative;
+  background-color: #E8E7DF;
 
   a {
     position: absolute;
@@ -424,7 +426,7 @@ header {
 .project-card {
   padding: 20px;
   border: 1px solid #000;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .jl-about-wrapper {
@@ -442,6 +444,78 @@ header {
       margin-top: 0;
       margin-bottom: 0;
     }
+  }
+}
+
+.projects-header {
+  .left {
+    height: 100vh;
+    width: 50%;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .right {
+    width: 50%;
+    position: relative;
+  }
+}
+
+.project-title-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  min-width: 300px;
+}
+
+.project-fullscreen {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.grid-images {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+
+  & > * {
+    width: 48%;
+  }
+}
+
+.project-inset {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.logos {
+  svg {
+    display: none;
+  }
+
+  h1 {
+    margin-top: 0;
   }
 }
 
