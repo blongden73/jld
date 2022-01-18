@@ -4,5 +4,6 @@ date: 2021-12-21 23:09:00 Z
 Project Subtitle: Digital Design
 Image: "/uploads/Testing%203.png"
 Link: 
+layout: project
 ---
 
