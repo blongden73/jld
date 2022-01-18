@@ -2,11 +2,11 @@
 title: Jaqueline Lavitt Design
 timezone: UTC
 collections:
-  home-page:
-    title: Home Page
-    output: true
   posts:
     title: Posts
+    output: true
+  home-page:
+    title: Projects
     output: true
   uploads:
     title: Uploads
