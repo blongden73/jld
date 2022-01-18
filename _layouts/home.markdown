@@ -1,27 +1,20 @@
 ---
 layout: default
 ---
-
-<div class="jl-wrapper">
-  <div class="jl-logo-wrapper">
-    <div class="jl-home-image-cards">
-      {% assign homeImages = site.home-page %}
-      {% for images in homeImages %}
-        <div class="card">
-          <img src="{{images.Image}}">
-        </div>
-      {% endfor %}
-    </div>
-    {% include logo.html %}
-  </div>
-</div>
 <div class="jl-wrapper">
   <div class="jl-projects">
-    <h1>Projects</h1>
+    <h1>Jaqueline Lavitt Designs</h1>
     {% assign projects = site.home-page %}
     <div class="flex">
       {% for project in projects %}
         <div class="project-card">
+          <a href="{{project.url}}"></a>
+          <div class="project-subtitle">
+            <h4>{{project.['Project Subtitle']}}</h4>
+          </div>
+          <div class="project-title">
+            <h2>{{project.title}}</h2>
+          </div>
           <img src="{{project.Image}}">
         </div>
       {% endfor %}
@@ -40,5 +33,10 @@ layout: default
           </div>
         {% endif %}
       {% endfor %}
+  </div>
+</div>
+<div class="jl-wrapper">
+  <div class="flex">
+    <div class="left"></div><div class="right"></div>
   </div>
 </div>

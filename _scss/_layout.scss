@@ -171,7 +171,7 @@ body {
 h1 {
   font-family: 'Boogy Brut Poster WBL White';
   font-weight: 100;
-  font-size: 90px;
+  font-size: 60px;
   line-height: 1;
 }
 
@@ -191,10 +191,21 @@ h1 {
 
 h2 {
   font-size: 24px;
+
+  .project-title & {
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 34px;
+  }
 }
 
 h3 {
   font-size: 18px
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 300;
 }
 
 p {
@@ -226,7 +237,7 @@ ul {
 }
 
 .jl-wrapper {
-  width: 98%;
+  width: 97%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -312,7 +323,7 @@ ul {
   &.wait {
     .card {
       &:nth-child(2) {
-        top: -130px !important;
+        top: -110px !important;
         left: 460px !important;
       }
       &:nth-child(3) {
@@ -320,7 +331,7 @@ ul {
         left: -130px !important;
       }
       &:nth-child(1) {
-        top: -150px !important;
+        top: -70px !important;
         left: -688px !important;
       }
     }
@@ -347,7 +358,7 @@ header {
   opacity: 0;
   animation-name: header;
   animation-duration: 0.3s;
-  animation-delay: 4s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
   position: fixed;
@@ -358,22 +369,50 @@ header {
   p {
     margin: 0;
   }
+
+  svg {
+    width: 60px;
+    height: auto;
+  }
 }
 
 .jl-main-header-nav {
   & > * {
-    margin-right: 50px;
+    margin-left: 50px;
   }
 }
 
 .jl-projects {
-  height: 100vh;
-  overflow: hidden;
+  height: auto;
+  padding-bottom: 100px;
+
+  h1 {
+    margin-top: 95px;
+  }
+}
+
+.project-title {
+  border-top: 1px solid #000;
+}
+
+.project-subtitle {
+  h4 {
+    margin-top: 0;
+  }
 }
 
 .project-card {
-  width: 485px;
+  width: 420px;
   height: auto;
+  position: relative;
+
+  a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 
   img {
     width: 100%;
@@ -382,10 +421,28 @@ header {
   }
 }
 
+.project-card {
+  padding: 20px;
+  border: 1px solid #000;
+  margin-right: 20px;
+}
+
 .jl-about-wrapper {
   height: 100vh;
   position: relative;
   background-color: #fff;
+}
+
+.jl-about {
+  .centered {
+    border: 1px solid #000;
+    padding: 30px;
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
 }
 
 footer {
