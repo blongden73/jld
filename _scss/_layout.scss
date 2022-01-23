@@ -383,9 +383,9 @@ header {
 }
 
 .jl-projects {
-  height: auto;
+  height: 100vh;
   padding-bottom: 100px;
-  padding-top: 200px;
+  padding-top: 130px;
 
   h1 {
     margin-top: 95px;
@@ -394,6 +394,10 @@ header {
 
 .project-title {
   border-top: 1px solid #000;
+
+  h2 {
+    margin-top: 10px;
+  }
 }
 
 .project-subtitle {
@@ -516,6 +520,8 @@ header {
 
   h1 {
     margin-top: 0;
+    font-size: 35px;
+    letter-spacing: 2px;
   }
 }
 
