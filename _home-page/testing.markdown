@@ -3,13 +3,12 @@ title: Project title one
 date: 2021-12-21 23:06:00 Z
 Project Subtitle: Graphic Design
 Image: "/uploads/testing.png"
-Link: 
 Images:
-- Full Screen Image: "/uploads/47e66887cbc908168c4a43ee3ad543af.jpeg"
+- Full Screen Image: https://images.squarespace-cdn.com/content/v1/5793da53893fc05f7307d2a7/1595020561273-E0KQ5PQ0HZUJVJC8PTKO/Jacqueline+Lavitt+Designs?format=2500w
   Grid:
-  - Left Image: "/uploads/d230272f89f52d24ff2164c68a524c91.jpeg"
-    Right Image: "/uploads/47e66887cbc908168c4a43ee3ad543af-5afda5.jpeg"
-  Inset Image: "/uploads/d230272f89f52d24ff2164c68a524c91.jpeg"
+  - Left Image: https://images.squarespace-cdn.com/content/v1/5793da53893fc05f7307d2a7/1595020561273-E0KQ5PQ0HZUJVJC8PTKO/Jacqueline+Lavitt+Designs?format=2500w
+    Right Image: https://images.squarespace-cdn.com/content/v1/5793da53893fc05f7307d2a7/1595020561273-E0KQ5PQ0HZUJVJC8PTKO/Jacqueline+Lavitt+Designs?format=2500w
+  Inset Image: https://images.squarespace-cdn.com/content/v1/5793da53893fc05f7307d2a7/1595020561273-E0KQ5PQ0HZUJVJC8PTKO/Jacqueline+Lavitt+Designs?format=2500w
 layout: project
 ---
 
