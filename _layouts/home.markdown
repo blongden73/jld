@@ -2,10 +2,15 @@
 layout: default
 ---
 
+<div class="carousel-control-wrapper">
+  <button class="prev"><svg width="66" height="30" viewBox="0 0 66 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="#000" stroke-opacity=".5" d="M66 15.119H1M14.998 28.71 1.143 14.855 14.998 1"/></svg></button>
+  <button class="next"><svg width="66" height="30" viewBox="0 0 66 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="#000" stroke-opacity=".5" d="M0 15.12h65M51.002 28.71l13.855-13.855L51.002 1"/></svg></button>
+</div>
+
 <div class="jl-wrapper">
   <div class="jl-projects">
     {% assign projects = site.home-page %}
-    <div class="flex">
+    <div class="siema">
       {% for project in projects %}
         <div class="project-card">
           <a href="{{project.url}}"></a>
