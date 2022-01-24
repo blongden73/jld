@@ -33,18 +33,38 @@ function cardsHover() {
 
 // Otherwise show 1 slide per page
 
-const mySiema = new Siema({
-  perPage: {
-    768: 2,
-    1024: 3,
-  },
-});
-const prev = document.querySelector('.prev');
-const next = document.querySelector('.next');
+var sliderCheck = document.querySelector('.siema');
 
-prev.addEventListener('click', () => mySiema.prev());
-next.addEventListener('click', () => mySiema.next());
+if(sliderCheck) {
+  const mySiema = new Siema({
+    perPage: {
+      768: 2,
+      1024: 3,
+    },
+  });
+  const prev = document.querySelector('.prev');
+  const next = document.querySelector('.next');
 
+  prev.addEventListener('click', () => mySiema.prev());
+  next.addEventListener('click', () => mySiema.next());
+}
+
+function footerCarousel() {
+  var buttons = document.querySelectorAll('.footer-control');
+  var footerSlides = document.querySelectorAll('.carousel-slide');
+  footerSlides[0].classList.add('active');
+  for(k=0; k<buttons.length; k++){
+    buttons[k].addEventListener('click', function(){
+      var selector = this.dataset.control;
+      var fullselector = '.footer-'+selector;
+      var slide = document.querySelector(fullselector);
+      for(i=0; i<footerSlides.length; i++){
+        footerSlides[i].classList.remove('active');
+      }
+      slide.classList.add('active');
+    });
+  }
+}footerCarousel();
 
 function init(){
   cardsHover();

@@ -520,6 +520,30 @@ a {
   }
 }
 
+.right {
+  .carousel-slide {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+
+    &.active {
+      opacity: 1;
+    }
+
+    span {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
 .project-title-wrapper {
   position: absolute;
   top: 50%;
@@ -622,9 +646,11 @@ a {
 
 .jld-footer {
   height: 100vh;
+  border-top: 1px solid #000;
 
   & > * {
     height: 100vh;
+    width: 50%;
     position: relative;
   }
 
@@ -643,6 +669,14 @@ a {
     font-size: 5.8vw;
     line-height: 1;
     color: #fff;
+
+    .footer-control {
+      display: inline-block;
+      
+      &:hover {
+        border-bottom: 1px solid #fff;
+      }
+    }
 
     div:nth-child(even) {
       margin-left: 140px;
@@ -685,6 +719,67 @@ a {
 }
 
 .project-images-wrapper {}
+
+.jl-wrapper__long p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Boogy Brut Poster WBL White';
+  font-size: 48px;
+  line-height: 1.6;
+}
+
+.jl-wrapper__centered  {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: flex;
+}
+
+.jl-wrapper__centered h2 {
+  font-family: 'Boogy Brut Poster WBL White';
+  font-size: 50px;
+  text-align: left;
+  font-weight: 100;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.jl-wrapper__centered h1 {
+  font-family: 'Boogy Brut Poster WBL White';
+  font-size: 80px;
+  text-align: center;
+  font-weight: 100;
+  line-height: 1;
+  margin-bottom: 20px;
+  margin-top: 0;
+  margin-right: 50px;
+}
+
+.flex.start {
+  width: 60%;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  img {
+    width: 40%;
+  }
+}
+
+.flex.end {
+  width: 60%;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+  img {
+    width: 40%;
+  }
+}
 
 footer {
   position: fixed;
