@@ -11,11 +11,11 @@ About large description: Jaqueline Lavitt is an independent graphic designer & a
   visual perspective to clients big and small. Her clients include Bandier, xxxx,
   xxxx, xxxxx, xxxxx.
 About Services description: |-
-  Brand Identity
-  Art Direction
-  Digital Design
-  Print Design
-  Custom Design
+  ## Brand Identity
+  ## Art Direction
+  ## Digital Design
+  ## Print Design
+  ## Custom Design
 layout: about
 ---
 
