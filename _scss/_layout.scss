@@ -365,6 +365,7 @@ header {
   top: 20px;
   left: 0px;
   width: 100%;
+  z-index: 1000;
 
   p {
     margin: 0;
@@ -406,6 +407,16 @@ header {
 .project-subtitle {
   h4 {
     margin-top: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    border-bottom: 1px solid #000;
+    padding-bottom: 4px;
   }
 }
 
@@ -514,8 +525,11 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 500px;
-  min-width: 300px;
+  width: 60%;
+
+  p {
+    line-height: 1.5;
+  }
 }
 
 .project-fullscreen {
@@ -567,6 +581,19 @@ header {
   }
 }
 
+.layout--projects .jl-about-wrapper {
+  background-color: transparent;
+}
+
+.jld-title-wrapper {
+  padding-top: 30px;
+  margin-bottom: -90px;
+
+  h1 {
+    text-align: center;
+  }
+}
+
 .carousel-control-wrapper {
   position: absolute;
   top: 50%;
@@ -582,6 +609,14 @@ header {
     background-color: $gold;
     border: none;
     cursor: pointer;
+  }
+
+  &.white {
+    background-color: transparent;
+
+    button {
+      background-color: white;
+    }
   }
 }
 
@@ -633,6 +668,23 @@ header {
   right: -40px;
   top: 40px;
 }
+
+.white {
+  background-color: #fff;
+  width: 100%;
+}
+
+.floating-window {
+  width: 97%;
+  height: 83vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(0,0,0,0.5);
+}
+
+.project-images-wrapper {}
 
 footer {
   position: fixed;

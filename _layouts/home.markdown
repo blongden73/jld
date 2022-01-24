@@ -46,26 +46,3 @@ layout: default
       {% endfor %}
   </div>
 </div>
-<div class="jl-wrapper jl-wrapper-full-width ">
-  <div class="flex jld-footer">
-    <div class="left">
-      <div class="footer-background-image">
-        <img src="assets/jld_clients.jpg">
-      </div>
-      <div class="centered">
-        <div class="footer-controls">
-          <div class="" data-control="contact">
-            Contact
-          </div>
-          <div class="" data-control="clients">
-            Clients
-          </div>
-          <div class="" data-control="about">
-            About
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="right"></div>
-  </div>
-</div>
