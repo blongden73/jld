@@ -4,10 +4,10 @@ date: 2021-12-21 23:07:00 Z
 Project Subtitle: 'Art Direction — Design — Digital '
 Image: "/uploads/Testing%202.png"
 Images:
-- Full Screen Image:
+- Full Screen Image: 
   Grid:
-  - Left Image:
-    Right Image:
+  - Left Image: 
+    Right Image: 
   Inset Image: 
 layout: project
 ---

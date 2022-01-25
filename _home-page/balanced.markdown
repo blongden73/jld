@@ -5,9 +5,10 @@ Project Subtitle: lorem Ipsum
 Image: "/uploads/testing.png"
 Link: 
 Images:
-- Full Screen Image:
+- Full Screen Image: 
   Grid:
-  - Left Image:
-    Right Image:
-  Inset Image:
+  - Left Image: 
+    Right Image: 
+  Inset Image: 
 ---
+
