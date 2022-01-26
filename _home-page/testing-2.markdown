@@ -8,9 +8,8 @@ Images:
   Grid:
   - Left Image: "/uploads/Sierra%20-11%20copy.png"
     Right Image: 
-- Full Screen Image: "/uploads/Sierra%20-8%20copy.png"
-- 
-- Full Screen Image: "/uploads/Mask%20Group.png"
+- Full Screen Image: "/uploads/Sierra%20-8%20copy-79ea7f.png"
+  Inset Image: "/uploads/Mask%20Group-9342ea.png"
 layout: project
 ---
 
