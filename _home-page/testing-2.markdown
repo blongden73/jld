@@ -1,19 +1,17 @@
 ---
-title: Project Title 2
+title: Seaworthy PDX
 date: 2021-12-21 23:07:00 Z
-Project Subtitle: 'Art Direction — Design — Digital '
-Image: "/uploads/Testing%202.png"
+Project Subtitle: Art Director — Stylist
+Image: "/uploads/Sierra%20-13%20copy.png"
 Images:
-- Full Screen Image: 
+- Full Screen Image: "/uploads/Sierra%20-3%20copy.png"
   Grid:
-  - Left Image: 
+  - Left Image: "/uploads/Sierra%20-11%20copy.png"
     Right Image: 
-  Inset Image: 
+- Full Screen Image: "/uploads/Sierra%20-8%20copy.png"
+- 
+- Full Screen Image: "/uploads/Mask%20Group.png"
 layout: project
 ---
 
-**Challenge**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-
-**Solution**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+Seaworthy is an organic jewelry brand committed to creating long lasting products made with intention. I was brought on to art direct a campaign shoot. With the brand’s point of view as the inspiration, I deliberately chose to cast, style and locate the shoot in a setting that felt natural while also elevated.
