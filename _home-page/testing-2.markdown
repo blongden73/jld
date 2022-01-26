@@ -1,7 +1,7 @@
 ---
 title: Seaworthy PDX
 date: 2021-12-21 23:07:00 Z
-Project Subtitle: Art Director — Stylist
+Project Subtitle: Art Direction — Stylist — Lorem Ipsum
 Image: "/uploads/Sierra%20-13%20copy.png"
 Images:
 - Full Screen Image: "/uploads/Sierra%20-3%20copy.png"
