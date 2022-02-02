@@ -8,7 +8,6 @@ Images:
   Grid:
   - Left Image: "/uploads/742A2921%202.png"
     Right Image: "/uploads/742A2684%202.png"
-  Inset Image: 
 - Full Screen Image: "/uploads/742A3094%201.png"
   Inset Image: "/uploads/742A2745%201.png"
 layout: project
