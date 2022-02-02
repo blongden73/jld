@@ -7,7 +7,8 @@ Images:
 - Full Screen Image: "/uploads/Sierra%20-3%20copy.png"
   Grid:
   - Left Image: "/uploads/Sierra%20-11%20copy.png"
-    Right Image: 
+    Right Video: "/uploads/Sincerely%20Jules.mp4"
+  Inset Image: 
 - Full Screen Image: "/uploads/Sierra%20-8%20copy-79ea7f.png"
   Inset Image: "/uploads/Mask%20Group-9342ea.png"
 layout: project
