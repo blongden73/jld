@@ -11,6 +11,8 @@ Images:
   Inset Image: 
 - Full Screen Image: "/uploads/Sierra%20-8%20copy-79ea7f.png"
   Inset Image: "/uploads/Mask%20Group-9342ea.png"
+  Video: "/uploads/Sincerely%20Jules.mp4"
+  Inset Video: "/uploads/Sincerely%20Jules.mp4"
 layout: project
 ---
 
