@@ -2,8 +2,7 @@
 title: Bandier
 date: 2021-12-21 23:06:00 Z
 Project Subtitle: lorem Ipsum
-Image: "/uploads/testing.png"
-Link: 
+Image: "/uploads/Mask%20Group-ff1c33.png"
 Images:
 - Full Screen Image: "/uploads/47e66887cbc908168c4a43ee3ad543af.jpeg"
   Grid:
