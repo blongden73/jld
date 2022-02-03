@@ -19,7 +19,9 @@ Images:
 - Full Screen Image: 
   Grid:
   - Left Image: "/uploads/12.png"
-    Right Image: 
+    Right Image: "/uploads/13.gif"
+- Full Screen Image: 
+  Grid:
   - Left Image: 
     Right Image: 
   Inset Image: 
