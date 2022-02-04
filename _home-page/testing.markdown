@@ -7,10 +7,10 @@ Images:
 - Full Screen Image: "/uploads/47e66887cbc908168c4a43ee3ad543af.jpeg"
   Grid:
   - Left Image: "/uploads/3-8d44de.png"
-    Right Image: "/uploads/47e66887cbc908168c4a43ee3ad543af-5afda5.jpeg"
+    Right Image: "/uploads/4-95936e.gif"
   Inset Image: 
 - Grid:
-  - Left Image: 
+  - Left Image: "/uploads/5.gif"
     Right Image: "/uploads/6-d85563.png"
 - Grid:
   - Left Image: "/uploads/7.png"
