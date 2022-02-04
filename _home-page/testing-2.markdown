@@ -1,7 +1,7 @@
 ---
 title: Seaworthy PDX
 date: 2021-12-21 23:07:00 Z
-Project Subtitle: Art Direction — Stylist — Lorem Ipsum
+Project Subtitle: 'Art Direction — Stylist — Coordinator '
 Image: "/uploads/1-84e6de.png"
 Images:
 - Full Screen Image: "/uploads/2.png"
@@ -17,4 +17,4 @@ Images:
 layout: project
 ---
 
-Seaworthy is an organic jewelry brand committed to creating long lasting products made with intention. I was brought on to art direct a campaign shoot. With the brand’s point of view as the inspiration, I deliberately chose to cast, style and locate the shoot in a setting that felt natural while also elevated.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
