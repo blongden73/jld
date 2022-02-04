@@ -1,7 +1,7 @@
 ---
 title: Seaworthy PDX
 date: 2021-12-21 23:07:00 Z
-Project Subtitle: 'Art Direction — Stylist — Coordinator '
+Project Subtitle: Art Direction — Content Creation
 Image: "/uploads/1-84e6de.png"
 Images:
 - Full Screen Image: "/uploads/2.png"
