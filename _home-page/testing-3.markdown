@@ -1,7 +1,7 @@
 ---
 title: Bandier x All Access
 date: 2021-12-21 23:09:00 Z
-Project Subtitle: Digital Design
+Project Subtitle: Brand Identity — Graphic Design  — Content Creation
 Image: "/uploads/Testing%203.png"
 Images:
 - Full Screen Image: 
