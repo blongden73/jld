@@ -1,7 +1,7 @@
 ---
 title: Bandier x Sincerly Jules
 date: 2022-01-23 21:57:00 Z
-Project Subtitle: lorem Ipsum
+Project Subtitle: Art Direction — Graphic Design  — Content Creation
 Image: "/uploads/1.png"
 Images:
 - Full Screen Image: "/uploads/2%20(lower%20res).mp4"
