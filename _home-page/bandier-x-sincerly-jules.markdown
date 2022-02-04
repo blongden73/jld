@@ -17,7 +17,7 @@ Images:
   Grid:
   - Left Image: "/uploads/9B.mp4"
     Right Image: "/uploads/10B.mp4"
-- Full Screen Image: 
+- Full Screen Image: "/uploads/11.mp4"
   Grid:
   - Left Image: "/uploads/12.png"
     Right Image: "/uploads/13.gif"
