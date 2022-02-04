@@ -1,7 +1,7 @@
 ---
 title: Summer Magic
 date: 2022-01-23 21:57:00 Z
-Project Subtitle: 'Art Direction — Stylist — Coordinator '
+Project Subtitle: Art Direction — Content Creation
 Image: "/uploads/1-4969dc.png"
 Images:
 - Full Screen Image: "/uploads/2-6b778e.png"
