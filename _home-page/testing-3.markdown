@@ -8,7 +8,17 @@ Images:
   Grid:
   - Left Image: "/uploads/3-664fd7.png"
     Right Image: "/uploads/4-98a36f.gif"
-  Inset Image: "/uploads/5-656af4.png"
+- Full Screen Image: "/uploads/5-6c29e2.png"
+  Inset Image: 
+- Full Screen Image: 
+  Grid:
+  - Left Image: "/uploads/7-ddda87.gif"
+    Right Image: "/uploads/8.png"
+- Full Screen Image: "/uploads/9.png"
+  Grid:
+  - Left Image: 
+    Right Image: 
+  Inset Image: 
 - Full Screen Image: 
   Grid:
   - Left Image: 
