@@ -54,16 +54,27 @@ if(sliderCheck) {
 function footerCarousel() {
   var buttons = document.querySelectorAll('.footer-control');
   var footerSlides = document.querySelectorAll('.carousel-slide');
+  var footerImages = document.querySelectorAll('.footer-background-image img');
   footerSlides[0].classList.add('active');
   for(k=0; k<buttons.length; k++){
     buttons[k].addEventListener('click', function(){
+      buttons.forEach((item, i) => {
+        item.classList.remove('active');
+      });
+      footerImages.forEach((image, i) => {
+        image.classList.remove('visible');
+      });
+      this.classList.add('active');
       var selector = this.dataset.control;
       var fullselector = '.footer-'+selector;
+      var imageSelector = '.footer-background-image img.'+selector;
+      var imageToChange = document.querySelector(imageSelector);
       var slide = document.querySelector(fullselector);
       for(i=0; i<footerSlides.length; i++){
         footerSlides[i].classList.remove('active');
       }
       slide.classList.add('active');
+      imageToChange.classList.add('visible');
     });
   }
 }footerCarousel();

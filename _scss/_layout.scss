@@ -721,10 +721,15 @@ a {
     font-family: 'Boogy Brut Poster WBL White';
     font-size: 5.8vw;
     line-height: 1;
-    color: #fff;
+    color: #E8E7DF;
 
     .footer-control {
       display: inline-block;
+
+      &.active {
+        border-bottom: 1px solid #fff;
+        color: #fff;
+      }
 
       &:hover {
         border-bottom: 1px solid #fff;
@@ -747,6 +752,13 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+
+    &.visible {
+      opacity: 1;
+    }
   }
 }
 
