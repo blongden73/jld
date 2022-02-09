@@ -9,7 +9,7 @@ Images:
   Inset Image: "/uploads/4-4a636f.gif"
 - Grid:
   - Left Image: 
-    Right Image: 
+    Right Image: "/uploads/6.gif"
 - Full Screen Image: 
   Grid:
   - Left Image: 
