@@ -7,7 +7,7 @@ layout: default
 <div class="flex projects-header">
   <div class="floating-window"></div>
   <div class="left">
-    <img src="{{page.Image}}">
+    <img loading="lazy" src="{{page.Image}}">
   </div>
   <div class="right">
     <div class="project-title-wrapper">
@@ -22,7 +22,13 @@ layout: default
   {% for image in images %}
     {% if image.['Full Screen Image'] %}
       <div class="project-fullscreen">
-        <img src="{{image.['Full Screen Image']}}">
+        {% unless image.['Full Screen Image'] contains '.mp4' %}
+          <img src="{{image.['Full Screen Image']}}">
+          {% else %}
+          <video autoplay playsinline muted>
+            <source src="{{image.['Full Screen Image']}}" type="video/mp4">
+          </video>
+        {% endunless %}
       </div>
     {% endif %}
     {% if image.['Grid'] %}
@@ -30,17 +36,41 @@ layout: default
           <div class="flex grid-images">
             {% for gi in gridimages %}
             {% if gi.['Left Image'] %}
-              <img src="{{gi.['Left Image']}}">
+              {% unless gi.['Left Image'] contains '.mp4' %}
+                <img loading="lazy" src="{{gi.['Left Image']}}">
+              {% else %}
+              <video autoplay playsinline muted>
+                <source src="{{gi.['Left Image']}}" type="video/mp4">
+              </video>
+            {% endunless %}
             {% endif %}
             {% if gi.['Right Image'] %}
-              <img src="{{gi.['Right Image']}}">
+              {% unless gi.['Right Image'] contains '.mp4' %}
+                <img loading="lazy" src="{{gi.['Right Image']}}">
+              {% else %}
+              <video autoplay playsinline muted>
+                <source src="{{gi.['Right Image']}}" type="video/mp4">
+              </video>
+            {% endunless %}
+            {% endif %}
+            {% if gi.['Right Image Video'] %}
+              <video width="320" height="240" controls>
+                <source src="{{gi.['Right Image Video']}}" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
             {% endif %}
             {% endfor %}
           </div>
     {% endif %}
     {% if image.['Inset Image'] %}
       <div class="project-inset">
-        <img src="{{image.['Inset Image']}}">
+        {% unless image.['Inset Image'] contains '.mp4' %}
+          <img loading="lazy" src="{{image.['Inset Image']}}">
+        {% else %}
+        <video autoplay playsinline muted>
+          <source src="{{image.['Inset Image']}}" type="video/mp4">
+        </video>
+        {% endunless %}
       </div>
     {% endif %}
   {% endfor %}

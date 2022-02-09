@@ -718,7 +718,12 @@ a {
   border: 1px solid rgba(0,0,0,0.5);
 }
 
-.project-images-wrapper {}
+.project-images-wrapper {
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
 
 .jl-wrapper__long p {
   width: 80%;
