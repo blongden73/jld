@@ -1,10 +1,10 @@
 ---
 title: Bandier
 date: 2021-12-21 23:06:00 Z
-Project Subtitle: Art Direction — Graphic Design  — Content Creation
+Project Subtitle: "Art Direction — \nDigital & Print Design"
 Image: "/uploads/1-9faa57.png"
 Images:
-- Full Screen Image: "/uploads/47e66887cbc908168c4a43ee3ad543af.jpeg"
+- Full Screen Image: "/uploads/2.gif"
   Grid:
   - Left Image: "/uploads/3-8d44de.png"
     Right Image: "/uploads/4-95936e.gif"
