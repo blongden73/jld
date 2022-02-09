@@ -537,9 +537,11 @@ a {
     right: 0;
     bottom: 0;
     opacity: 0;
+    pointer-events: none;
 
     &.active {
       opacity: 1;
+      pointer-events: all;
     }
 
     span {
@@ -850,4 +852,51 @@ footer {
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
   margin-right: 10px;
+}
+
+.jld-contact-form {
+  width: 100%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: none;
+  outline: none;
+
+  form,fieldset {
+    border: none;
+    outline: none;
+  }
+
+  input, textarea {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+  }
+
+  label {
+    font-family: 'Monument Grotesk';
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  textarea {
+    height: 150px;
+    font-family: 'Monument Grotesk';
+    font-size: 14px;
+  }
+
+  input.btn {
+    background-color: #000;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
