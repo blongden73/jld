@@ -5,7 +5,7 @@ Project Subtitle: Art Direction — Graphic Design
 Image: "/uploads/1-3b6d96.png"
 Images:
 - Full Screen Image: "/uploads/2-5beb2e.png"
-- Full Screen Image: 
+- Full Screen Image: "/uploads/3.gif"
   Inset Image: "/uploads/4-4a636f.gif"
 - Grid:
   - Left Image: "/uploads/5-fc7c94.png"
