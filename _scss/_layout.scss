@@ -906,9 +906,15 @@ footer {
   }
 
   input.btn {
-    background-color: #000;
-    color: #fff;
+    background-color: transparent;
+    text-align: left;
+    font-family: 'Boogy Brut Poster WBL White';
+    font-size: 34px;
+    color: #000;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-bottom: 0;
+    padding-left: 0;
+    margin-left: 0;
   }
 }
