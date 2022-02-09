@@ -4,7 +4,7 @@ date: 2021-12-21 23:06:00 Z
 Project Subtitle: Art Direction — Graphic Design
 Image: "/uploads/1-9faa57.png"
 Images:
-- Full Screen Image: "/uploads/2.gif"
+- Full Screen Image: "/uploads/2-76e11d.gif"
   Grid:
   - Left Image: "/uploads/3-8d44de.png"
     Right Image: "/uploads/4-95936e.gif"
