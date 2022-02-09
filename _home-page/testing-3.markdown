@@ -12,7 +12,7 @@ Images:
   Inset Image: 
 - Full Screen Image: "/uploads/6.mp4"
   Grid:
-  - Left Image: "/uploads/7-ddda87.gif"
+  - Left Image: "/uploads/7-bb3435.gif"
     Right Image: "/uploads/8.png"
 - Full Screen Image: "/uploads/9.png"
   Grid:
