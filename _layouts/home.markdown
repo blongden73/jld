@@ -12,7 +12,7 @@ layout: default
     {% assign projects = site.home-page %}
     <div class="siema">
       {% for project in projects %}
-        <div class="project-card">
+        <div class="project-card uk-animation-fade">
           <a href="{{project.url}}"></a>
           <div class="project-subtitle">
             <h4>{{project.['Project Subtitle']}}</h4>

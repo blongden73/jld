@@ -426,6 +426,7 @@ a {
   height: auto;
   position: relative;
   background-color: #E8E7DF;
+  animation-delay: 0.8s;
 
   a {
     position: absolute;
@@ -613,6 +614,41 @@ a {
 
 .layout--projects .jl-about-wrapper {
   background-color: transparent;
+}
+
+.layout--projects {
+
+  .jl-about {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 13vh;
+  }
+
+  .jl-about .flex {
+    align-items: center;
+    justify-content: space-around;
+  }
+
+   .about-left {
+     width: 55%;
+
+     img {
+       width: 100%;
+       height: auto;
+     }
+   }
+   .about-right {
+     width: 70%;
+     border: 1px solid #000;
+     margin-left: -55px;
+     padding-right: 40px;
+
+     span p{
+       font-size: 1.6vw !important;
+       line-height: 2.3vw !important;
+     }
+   }
 }
 
 .jld-title-wrapper {

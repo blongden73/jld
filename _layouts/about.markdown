@@ -22,13 +22,3 @@ layout: default
       {% endfor %}
   </div>
 </div>
-<div class="jl-wrapper">
-  <div class="jl-wrapper__long">
-    <p>{{page.['About large description'] | markdownify}}</p>
-  </div>
-</div>
-<div class="jl-wrapper">
-  <div class="jl-wrapper__centered">
-    {{page.['About Services description'] | markdownify}}
-  </div>
-</div>
