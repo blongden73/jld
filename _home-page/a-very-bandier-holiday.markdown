@@ -1,7 +1,20 @@
 ---
 title: A Very Bandier Holiday
 date: 2022-02-02 20:51:00 Z
-Project Subtitle: Campaign Direction — Graphic Design
+Project Subtitle: Art Direction — Graphic Design
+Image: "/uploads/1-3b6d96.png"
+Images:
+- Full Screen Image: "/uploads/2-5beb2e.png"
+- Full Screen Image: 
+  Inset Image: "/uploads/4-4a636f.gif"
+- Grid:
+  - Left Image: 
+    Right Image: 
+- Full Screen Image: 
+  Grid:
+  - Left Image: 
+    Right Image: 
+  Inset Image: 
 layout: project
 ---
 
