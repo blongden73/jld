@@ -2,13 +2,13 @@
 title: Bandier x All Access
 date: 2021-12-21 23:09:00 Z
 Project Subtitle: Brand Identity — Graphic Design  — Content Creation
-Image: "/uploads/Testing%203.png"
+Image: "/uploads/1-34cc71.png"
 Images:
-- Full Screen Image: 
+- Full Screen Image: "/uploads/2-ea1a01.png"
   Grid:
-  - Left Image: 
-    Right Image: 
-  Inset Image: 
+  - Left Image: "/uploads/3-664fd7.png"
+    Right Image: "/uploads/4-98a36f.gif"
+  Inset Image: "/uploads/5-656af4.png"
 - Full Screen Image: 
   Grid:
   - Left Image: 
