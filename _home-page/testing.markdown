@@ -15,7 +15,7 @@ Images:
 - Grid:
   - Left Image: "/uploads/7.png"
     Right Image: "/uploads/8.gif"
-- Full Screen Image: 
+- Full Screen Image: "/uploads/9.gif"
 - Full Screen Image: 
   Grid:
   - Left Image: 
