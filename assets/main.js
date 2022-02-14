@@ -41,6 +41,7 @@ if(sliderCheck) {
   const mySiema = new Siema({
     perPage: {
       768: 2,
+      960: 2,
       1024: 3,
     },
   });

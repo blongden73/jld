@@ -476,21 +476,26 @@ a {
     right: 0;
     bottom: 0;
     top: 0;
+    width: 40%;
+    overflow: hidden;
 
     img {
       width: 100%;
       height: 100%;
       object-fit: cover;
+      max-height: 80vh;
     }
   }
 
   [class="h1"] {
-    width: 60%;
+    width: 56%;
+    font-size: 35px;
+    line-height: 40px;
+    padding-left: 30px;
 
     p {
-      font-size: 2.3vw;
-      line-height: 2.7vw;
-      padding-left: 70px;
+      font-size: 1.9vw;
+      line-height: 2.2vw;
     }
   }
 
@@ -656,8 +661,9 @@ a {
      }
 
      span p{
-       font-size: 1.6vw !important;
-       line-height: 2.3vw !important;
+       font-size: 1.2vw !important;
+       line-height: 1.8vw !important;
+       padding-left: 30px;
      }
    }
 }
