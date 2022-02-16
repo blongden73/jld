@@ -432,7 +432,7 @@ header {
   margin-left: auto;
   margin-right: auto;
 
-  @include mq($until: desktop) {
+  @include mq($until: tablet) {
     width: 100%;
     padding-top: 70px;
   }
