@@ -238,6 +238,10 @@ ul {
 
 .eighty {
   width: 80%;
+
+  @include mq($until: tablet) {
+    width: 85%;
+  }
 }
 
 .jl-wrapper {
@@ -374,6 +378,14 @@ header {
   left: 0px;
   width: 100%;
   z-index: 1000;
+
+  @include mq($until: tablet) {
+    top: 0;
+    padding-top: 20px;
+    background-color: $gold;
+    padding-bottom: 10px;
+    z-index: 10000;
+  }
 
   p {
     margin: 0;
@@ -779,6 +791,10 @@ a {
 
 .jl-carousel-wrapper {
   min-height: 850px;
+
+  @include mq($until: tablet) {
+    min-height: 690px;
+  }
 }
 
 .carousel-control-wrapper {
@@ -1012,6 +1028,10 @@ footer {
 
   @include mq($until: desktop) {
     position: relative;
+    background-color: #fff;
+    bottom: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 }
 
