@@ -68,7 +68,10 @@
                   </div>
                   <div class="row">
                     <div class="col-xs-12">
-                      <input type="submit" value="Get in touch" class="btn btn-block btn-primary" data-disable-with="Submit" />
+                      <div class="flex flex-start">
+                        <input type="submit" value="Get in touch" class="btn btn-block btn-primary" data-disable-with="Submit" />
+                        {% include arrow.html %}
+                      </div>
                     </div>
                   </div>
                 </fieldset>
@@ -91,7 +94,7 @@
       <div class="footer-about carousel-slide">
         <span>
           My design business blossomed nearly a decade ago, when I began ideating and designing identities for companies both big and small. Since then, I’ve collaborated with creative agencies, small startups, Fortune 500 companies and beyond.
-          <a href="/projects/">Read More</a>
+          <a href="/projects/">Read More {% include arrow.html %}</a>
         </span>
       </div>
     </div>

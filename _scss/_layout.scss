@@ -229,6 +229,20 @@ ul {
   }
 }
 
+.flex-start {
+  justify-content: flex-start;
+
+  svg {
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+
+  input {
+    width: max-content !important;
+    cursor: pointer;
+  }
+}
+
 .space-bwtn {
   justify-content: space-between;
 }
@@ -1109,7 +1123,7 @@ footer {
     }
 
     @include mq($from: desktop){
-      width: 60%;
+      width: 74%;
       font-size: 42px;
     }
   }
@@ -1117,7 +1131,12 @@ footer {
 
 .footer-about {
   span {
-    text-align: left;
+    text-align: left !important;
+  }
+
+  a {
+    display: block;
+    margin-top: 20px;
   }
 }
 
