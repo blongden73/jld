@@ -661,19 +661,31 @@ a {
 .layout--projects {
 
   .jl-about {
-      width: 70%;
+      width: 96%;
       margin-left: auto;
       margin-right: auto;
       padding-top: 13vh;
+
+      @include mq($from: desktop) {
+          padding-top: 7vh;
+          width: 70%;
+      }
   }
 
   .jl-about .flex {
     align-items: center;
     justify-content: space-around;
+
+    @include mq($until: desktop) {
+        flex-direction: column;
+    }
   }
 
    .about-left {
-     width: 55%;
+     width: 100% ;
+     @include mq($from: desktop) {
+       width: 55%;
+    }
 
      img {
        width: 100%;
@@ -681,13 +693,22 @@ a {
      }
    }
    .about-right {
-     width: 60%;
+     width: 100%;
      border: 1px solid #000;
-     margin-left: -55px;
-     padding-right: 40px;
      position: relative;
-     padding-top: 30px;
+     padding-top: 0px;
      padding-bottom: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+     box-sizing: border-box;
+
+     @include mq($from: desktop) {
+       padding-top: 0px;
+       margin-top: 180px;
+       margin-left: -55px;
+       padding-right: 40px;
+       width: 60%;
+     }
 
      .jld-logo-about {
        right: 50px;
@@ -695,9 +716,13 @@ a {
      }
 
      span p{
-       font-size: 1.2vw !important;
-       line-height: 1.8vw !important;
-       padding-left: 30px;
+       font-size: 32px;
+
+       @include mq($from: desktop) {
+         font-size: 1.7vw !important;
+         line-height: 1.8vw !important;
+         padding-left: 30px;
+       }
      }
    }
 }
@@ -736,7 +761,7 @@ a {
     background-color: transparent;
 
     button {
-      background-color: white;
+      background-color: transparent;
     }
   }
 }
@@ -997,13 +1022,20 @@ footer {
   }
 }
 
-.footer-about {
-  span {
-    font-size: 32px;
+.footer-about, .footer-clients {
+  span, ul {
+    font-size: 25px;
+    width: 80%;
     font-family: 'Boogy Brut Poster WBL White';
+
+    ul {
+      margin-left: auto;
+      margin-right: auto;
+    }
 
     @include mq($from: desktop){
       width: 60%;
+      font-size: 42px;
     }
   }
 }
@@ -1011,11 +1043,21 @@ footer {
 .footer-clients {
   ul {
     padding-left: 0;
+    font-size: 32px;
+    @include mq($from: desktop){
+      font-size: 52px;
+    }
   }
 }
 
 .siema {
   & > div {
     transition: all ease-in-out 0.5s !important;
+  }
+}
+
+.socials {
+  & > * {
+    margin-right: 10px;
   }
 }
