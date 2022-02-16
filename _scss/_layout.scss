@@ -219,6 +219,10 @@ ul {
 
 .flex {
   display: flex;
+
+  @include mq($until: desktop) {
+    flex-direction: column;
+  }
 }
 
 .space-bwtn {
@@ -241,6 +245,10 @@ ul {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+
+  @include mq($until: desktop) {
+    width: 90%;
+  }
 }
 
 .jl-logo-wrapper {
@@ -378,6 +386,9 @@ header {
 }
 
 .jl-main-header-nav {
+  @include mq($until: desktop) {
+    display: none;
+  }
   & > * {
     margin-left: 50px;
   }
@@ -555,6 +566,11 @@ a {
     height: 100vh;
     width: 50%;
 
+    @include mq($until: desktop) {
+      width: 100%;
+      height: 74vh;
+    }
+
     img {
       height: 100%;
       width: 100%;
@@ -564,6 +580,10 @@ a {
   .right {
     width: 50%;
     position: relative;
+
+    @include mq($until: desktop) {
+      width: 100%;
+    }
   }
 }
 
@@ -594,11 +614,16 @@ a {
 }
 
 .project-title-wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 60%;
+  position: relative;
+  padding: 5%;
+
+  @include mq($from: desktop) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+  }
 
   p {
     line-height: 1.5;
@@ -626,6 +651,10 @@ a {
 
   & > * {
     width: 48%;
+
+    @include mq($until: desktop) {
+      width: 100%;
+    }
   }
 }
 
@@ -651,6 +680,10 @@ a {
     font-size: 35px;
     letter-spacing: 2px;
     text-transform: uppercase;
+
+    @include mq($until: desktop) {
+      font-size: 22px;
+    }
   }
 }
 
@@ -772,6 +805,7 @@ a {
 
   @include mq($until: desktop) {
     flex-direction: column;
+    height: auto;
   }
 
   & > * {
@@ -967,6 +1001,10 @@ footer {
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
   margin-right: 10px;
+
+  @include mq($until: desktop) {
+    position: relative;
+  }
 }
 
 .jld-contact-form {
@@ -978,6 +1016,10 @@ footer {
   top: 50%;
   border: none;
   outline: none;
+
+  @include mq($until: desktop) {
+    width: 95%;
+  }
 
   form,fieldset {
     border: none;
