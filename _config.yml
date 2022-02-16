@@ -11,6 +11,9 @@ collections:
   home-page:
     title: Projects
     output: true
+  testimonials:
+    title: Testimonials
+    output: true
   uploads:
     title: Uploads
     output: true
