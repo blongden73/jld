@@ -7,7 +7,7 @@ layout: default
   <button class="next"><svg width="66" height="30" viewBox="0 0 66 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="#000" stroke-opacity=".5" d="M0 15.12h65M51.002 28.71l13.855-13.855L51.002 1"/></svg></button>
 </div>
 
-<div class="jl-wrapper">
+<div class="jl-wrapper jl-carousel-wrapper">
   <div class="jl-projects">
     {% assign projects = site.home-page %}
     <div class="siema">

@@ -81,25 +81,17 @@
       <div class="footer-clients carousel-slide">
         <span>
           <ul>
-            <li>client name</li>
-            <li>client name</li>
-            <li>client name</li>
-            <li>client name</li>
-            <li>client name</li>
-            <li>client name</li>
-            <li>client name</li>
-            <li>client name</li>
-            <li>client name</li>
-            <li>client name</li>
-            <li>client name</li>
-            <li>client name</li>
-            <li>client name</li>
+            {% assign clinetList = site.clients %}
+            {% for client in clinetList %}
+              <li>{{client.title}}</li>
+            {% endfor%}
           </ul>
         </span>
       </div>
       <div class="footer-about carousel-slide">
         <span>
-          "She not only has a great taste for colors, fonts and overall branding feel; but has the attention to details that really take (your and her) designs to the next level"
+          My design business blossomed nearly a decade ago, when I began ideating and designing identities for companies both big and small. Since then, I’ve collaborated with creative agencies, small startups, Fortune 500 companies and beyond.
+          <a href="/projects/">Read More</a>
         </span>
       </div>
     </div>

@@ -40,9 +40,8 @@ var sliderCheck = document.querySelector('.siema');
 if(sliderCheck) {
   const mySiema = new Siema({
     perPage: {
-      768: 2,
-      960: 2,
-      1024: 3,
+      920: 2,
+      1400: 3
     },
   });
   const prev = document.querySelector('.prev');

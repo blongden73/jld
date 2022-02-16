@@ -453,8 +453,16 @@ a {
 .jl-about-wrapper {
   position: relative;
   background-color: #fff;
-  padding-bottom: 14vh;
-  min-height: 100vh;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  height: auto;
+
+  @include mq($from: desktop) {
+    height: 100vh;
+    min-height: 800px;
+    padding-top: 0;
+    padding-bottom: 14vh;
+  }
 }
 
 .jl-about {
@@ -465,19 +473,36 @@ a {
 
   .box {
     border: 1px solid #000;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+    @include mq($until: desktop) {
+      display: flex;
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+    }
+
+    @include mq($from: desktop) {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   }
 
   .image {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    width: 40%;
+    width: 100%;
     overflow: hidden;
+    margin-bottom: -4px;
+
+    @include mq($from: desktop) {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      width: 40%;
+      margin-bottom: 0;
+    }
 
     img {
       width: 100%;
@@ -488,14 +513,23 @@ a {
   }
 
   [class="h1"] {
-    width: 56%;
+    width: 84%;
     font-size: 35px;
     line-height: 40px;
     padding-left: 30px;
 
+    @include mq($from: desktop) {
+      width: 56%;
+    }
+
     p {
-      font-size: 1.9vw;
-      line-height: 2.2vw;
+      font-size: 24px;
+      line-height: 1.2;
+
+      @include mq($from: desktop) {
+        font-size: 1.9vw;
+        line-height: 2.2vw;
+      }
     }
   }
 
@@ -677,6 +711,10 @@ a {
   }
 }
 
+.jl-carousel-wrapper {
+  min-height: 850px;
+}
+
 .carousel-control-wrapper {
   position: absolute;
   top: 50%;
@@ -689,7 +727,7 @@ a {
   pointer-events: all;
 
   button {
-    background-color: $gold;
+    background-color: transparent;
     border: none;
     cursor: pointer;
   }
@@ -707,6 +745,10 @@ a {
   height: 100vh;
   border-top: 1px solid #000;
 
+  @include mq($until: desktop) {
+    flex-direction: column;
+  }
+
   & > * {
     height: 100vh;
     width: 50%;
@@ -716,6 +758,16 @@ a {
   .left {
     background-color: #939393;
     width: 50%;
+
+    @include mq($until: desktop) {
+      width: 100%;
+    }
+  }
+
+  .right {
+    @include mq($until: desktop) {
+      width: 100%;
+    }
   }
 }
 
@@ -728,6 +780,10 @@ a {
     font-size: 5.8vw;
     line-height: 1;
     color: #E8E7DF;
+
+    @include mq($until: desktop) {
+      font-size: 62px;
+    }
 
     .footer-control {
       display: inline-block;
@@ -753,6 +809,7 @@ a {
   left: 0;
   bottom: 0;
   right: 0;
+  background-color: #000;
 
   img {
     width: 100%;
@@ -764,6 +821,10 @@ a {
 
     &.visible {
       opacity: 1;
+
+      @include mq($until: desktop) {
+        opacity: 0.6;
+      }
     }
   }
 }
@@ -773,6 +834,17 @@ a {
   right: -40px;
   top: 40px;
   z-index: 1000;
+
+  @include mq($until: desktop) {
+    right: -24px;
+    top: 20px;
+    width: 50px;
+  }
+
+  svg {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .white {
@@ -922,5 +994,28 @@ footer {
     border-bottom: 0;
     padding-left: 0;
     margin-left: 0;
+  }
+}
+
+.footer-about {
+  span {
+    font-size: 32px;
+    font-family: 'Boogy Brut Poster WBL White';
+
+    @include mq($from: desktop){
+      width: 60%;
+    }
+  }
+}
+
+.footer-clients {
+  ul {
+    padding-left: 0;
+  }
+}
+
+.siema {
+  & > div {
+    transition: all ease-in-out 0.5s !important;
   }
 }
