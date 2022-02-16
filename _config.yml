@@ -2,6 +2,9 @@
 title: Jaqueline Lavitt Design
 timezone: UTC
 collections:
+  clients:
+    title: Clients
+    output: true
   posts:
     title: Posts
     output: true
