@@ -25,7 +25,7 @@ layout: default
         {% unless image.['Full Screen Image'] contains '.mp4' %}
           <img src="{{image.['Full Screen Image']}}">
           {% else %}
-          <video autoplay playsinline muted>
+          <video autoplay playsinline muted loop>
             <source src="{{image.['Full Screen Image']}}" type="video/mp4">
           </video>
         {% endunless %}
@@ -39,7 +39,7 @@ layout: default
               {% unless gi.['Left Image'] contains '.mp4' %}
                 <img loading="lazy" src="{{gi.['Left Image']}}">
               {% else %}
-              <video autoplay playsinline muted>
+              <video autoplay playsinline muted loop>
                 <source src="{{gi.['Left Image']}}" type="video/mp4">
               </video>
             {% endunless %}
@@ -54,7 +54,7 @@ layout: default
             {% endunless %}
             {% endif %}
             {% if gi.['Right Image Video'] %}
-              <video width="320" height="240" controls>
+              <video width="320" height="240" controls loop>
                 <source src="{{gi.['Right Image Video']}}" type="video/mp4">
                   Your browser does not support the video tag.
               </video>
