@@ -1,6 +1,7 @@
 ---
 title: Bandier
 date: 2021-12-21 23:06:00 Z
+position: 0
 Project Subtitle: Art Direction — Graphic Design
 Image: "/uploads/1-9faa57.png"
 Images:
