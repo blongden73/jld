@@ -2,7 +2,7 @@
 title: Starface
 date: 2022-02-02 20:37:00 Z
 published: false
-position: 3
+position: 2
 Project Subtitle: Graphic Design  — Product Design
 layout: project
 ---
