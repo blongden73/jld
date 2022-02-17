@@ -1,7 +1,7 @@
 ---
 title: A Very Bandier Holiday
 date: 2022-02-02 20:51:00 Z
-position: 3
+position: 2
 Project Subtitle: Art Direction — Graphic Design
 Image: "/uploads/1-3b6d96.png"
 Images:
