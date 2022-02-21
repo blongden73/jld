@@ -2,7 +2,7 @@
 title: Bandier x Sincerly Jules
 date: 2022-01-23 21:57:00 Z
 position: 5
-Project Subtitle: Art Direction — Digital Design
+Project Subtitle: Art Direction — Graphic Design
 Image: "/uploads/1.png"
 Images:
 - Full Screen Image: "/uploads/2%20(lower%20res).mp4"
@@ -30,4 +30,4 @@ Images:
 layout: project
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Bandier partnered with fashion and style icon Sincerely Jules to launch 4 collections that were featured on bandier.com and amazon.com, both of which I managed the digital experiences for. This project provided insight in implementing brand identity on Amazon – a very transactional platform and a strong business driver.
