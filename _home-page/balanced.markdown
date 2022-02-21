@@ -11,7 +11,7 @@ Images:
     Right Image: "/uploads/4-40a74c.png"
   Inset Image: 
 - Full Screen Image: "/uploads/5-c65ea7.png"
-  Inset Image: "/uploads/6-2ab57f.png"
+- Full Screen Image: "/uploads/6-155179.png"
 layout: project
 ---
 
