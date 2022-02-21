@@ -2,7 +2,7 @@
 title: Summer Magic
 date: 2022-01-23 21:57:00 Z
 position: 0
-Project Subtitle: Art Direction — Content Creation
+Project Subtitle: Art Direction
 Image: "/uploads/1-4969dc.png"
 Images:
 - Full Screen Image: "/uploads/2-6b778e.png"
@@ -15,4 +15,4 @@ Images:
 layout: project
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+‘Summer Magic’ was a photo shoot that showcased the beauty of the Columbia River Gorge and the magic of summertime love. I handled everything from art direction to model casting, product sourcing to set design and beyond.
