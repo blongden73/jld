@@ -3,12 +3,12 @@ title: Starface
 date: 2022-02-02 20:37:00 Z
 position: 6
 Project Subtitle: Product Design
-Image: "/uploads/1-55b2cd.png"
+Image: "/uploads/1-6d1397.png"
 Images:
-- Grid:
-  - Left Image: "/uploads/2%20copy.mov"
-    Right Image: "/uploads/3%20copy.mov"
-  Inset Image: 
+- Full Screen Image: "/uploads/2-39dc3a.png"
+  Grid:
+  - Left Image: "/uploads/3-d192e8.png"
+    Right Image: "/uploads/4-0f7f82.gif"
 - Full Screen Image: 
   Grid:
   - Left Image: 
