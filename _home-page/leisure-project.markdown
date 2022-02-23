@@ -1,7 +1,7 @@
 ---
 title: Leisure Project
 date: 2022-02-23 18:28:00 Z
-Project Subtitle: Art Direction
+Project Subtitle: Art Direction — Graphic Design
 Image: "/uploads/1-7c7ea7.png"
 Images:
 - Full Screen Image: "/uploads/2-860171.png"
