@@ -1,9 +1,20 @@
 ---
 title: Starface
 date: 2022-02-02 20:37:00 Z
-published: false
 position: 6
 Project Subtitle: Product Design
+Image: "/uploads/1-55b2cd.png"
+Images:
+- Full Screen Image: "/uploads/IMG_3089.jpeg"
+  Grid:
+  - Left Image: 
+    Right Image: 
+  Inset Image: 
+- Full Screen Image: 
+  Grid:
+  - Left Image: 
+    Right Image: 
+  Inset Image: 
 layout: project
 ---
 
