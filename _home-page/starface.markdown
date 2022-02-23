@@ -7,8 +7,8 @@ Image: "/uploads/1-55b2cd.png"
 Images:
 - Full Screen Image: "/uploads/IMG_3089.jpeg"
   Grid:
-  - Left Image: 
-    Right Image: 
+  - Left Image: "/uploads/2%20copy.mov"
+    Right Image: "/uploads/3%20copy.mov"
   Inset Image: 
 - Full Screen Image: 
   Grid:
