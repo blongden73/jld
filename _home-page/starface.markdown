@@ -5,8 +5,7 @@ position: 6
 Project Subtitle: Product Design
 Image: "/uploads/1-55b2cd.png"
 Images:
-- Full Screen Image: "/uploads/IMG_3089.jpeg"
-  Grid:
+- Grid:
   - Left Image: "/uploads/2%20copy.mov"
     Right Image: "/uploads/3%20copy.mov"
   Inset Image: 
