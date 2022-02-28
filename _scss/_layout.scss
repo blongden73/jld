@@ -500,6 +500,10 @@ a {
   border: 1px solid #000;
   margin-right: auto;
   margin-left: auto;
+
+  &:hover {
+    border: 3px solid #000;
+  }
 }
 
 .jl-about-wrapper {
