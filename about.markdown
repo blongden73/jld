@@ -10,7 +10,7 @@ About large description: "I’m Jacqueline - an independent designer and art dir
   a decade ago, when I began ideating and designing identities for companies both
   big and small. Since then, I’ve collaborated with creative agencies, small startups,
   Fortune 500 companies and beyond. \n\nWith a lifelong passion for art and design,
-  I discover inspiration everywhere I go. \n\nReady to collaborate? Let’s connect."
+  I discover inspiration everywhere I go. \n\nReady to collaborate? [Let’s connect](#contact)."
 About Services description: 
 layout: about
 ---
