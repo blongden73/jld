@@ -86,7 +86,7 @@
           <ul>
             {% assign clinetList = site.clients %}
             {% for client in clinetList %}
-              <li>{{client.title}}</li>
+              <li>{% if client.link %}<a href="{{client.link}}">{% endif %}{{client.title}}{% if client.link %}</a>{% endif %}</li>
             {% endfor%}
           </ul>
         </span>
