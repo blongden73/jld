@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="jl-wrapper">
   <div class="jl-about-wrapper">
     <div class="projects-flex">
