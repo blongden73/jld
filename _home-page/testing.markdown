@@ -25,4 +25,4 @@ Images:
 layout: project
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+As one of the brand’s lead designers at Bandier, I’ve handled everything from logo redesign to print collateral; web design to paid ads. I spent time as a full-time consultant, leading the charge on all things design and eventually moving into creative art direction.

@@ -2,13 +2,14 @@
 title: Bandier x All Access
 date: 2021-12-21 23:09:00 Z
 position: 3
-Project Subtitle: Brand Identity — Graphic Design  — Content Creation
+Project Subtitle: Graphic Design  — Content Creation
 Image: "/uploads/1-34cc71.png"
 Images:
 - Full Screen Image: "/uploads/2-ea1a01.png"
   Grid:
   - Left Image: "/uploads/3-664fd7.png"
     Right Image: "/uploads/4-98a36f.gif"
+  Inset Image: 
 - Full Screen Image: "/uploads/5-6c29e2.png"
   Inset Image: 
 - Full Screen Image: 
@@ -28,4 +29,4 @@ Images:
 layout: project
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+All Access is a Bandier line known for high-compression and high-performance workout apparel. I reworked the brand identity, including new typefaces, logo, and logo patterns. The first drop was for the All Access Fleece collection and soon after the second drop for the All Access Ribbed line collection. My logos and patterns are featured on both the physical product and across Bandier’s physical and digital footprint.
