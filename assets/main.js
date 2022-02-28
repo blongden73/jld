@@ -51,6 +51,20 @@ if(sliderCheck) {
   next.addEventListener('click', () => mySiema.next());
 }
 
+function header() {
+  var header = document.querySelector('header');
+  var headerTracking = document.querySelector('.header-tracker');
+  document.addEventListener('scroll', function(){
+    var top = headerTracking.getBoundingClientRect().top;
+    console.log(top);
+    if(top <= -10) {
+      header.classList.add('scrolling');
+    }else {
+      header.classList.remove('scrolling');
+    }
+  });
+}
+
 function videoPLay(){
   var videoCheck = document.querySelector('video');
   if(videoCheck){
@@ -99,5 +113,6 @@ function footerCarousel() {
 
 function init(){
   cardsHover();
+  header();
   // videoPLay();
 }init();
