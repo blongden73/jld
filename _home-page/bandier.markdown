@@ -10,7 +10,7 @@ Images:
   - Left Image: "/uploads/3-8d44de.png"
     Right Image: "/uploads/4-95936e.gif"
   Inset Image: 
-  Text: This is some more text for the project
+  Text: "### Project Subtitle \nThis is some more text for the project"
   Grid-three:
   - Left Image: "/uploads/4-95936e.gif"
     Middle Image: "/uploads/4-95936e.gif"
