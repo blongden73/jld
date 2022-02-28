@@ -397,7 +397,7 @@ header {
   left: 0px;
   width: 100%;
   z-index: 1000;
-  
+
   &.scrolling {
     background-color: $gold;
   }
@@ -731,11 +731,11 @@ a {
   }
 }
 
-.layout--projects .jl-about-wrapper {
+.layout--projects .jl-about-wrapper, .layout--about .jl-about-wrapper {
   background-color: transparent;
 }
 
-.layout--projects {
+.layout--projects , .layout--about {
 
   .jl-about {
       width: 96%;
