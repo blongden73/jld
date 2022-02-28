@@ -51,6 +51,21 @@ if(sliderCheck) {
   next.addEventListener('click', () => mySiema.next());
 }
 
+function videoPLay(){
+  var videoCheck = document.querySelector('video');
+  if(videoCheck){
+    console.log('Hay videos aca');
+    var videos = document.querySelectorAll('video');
+    document.addEventListener('scroll', function(){
+      videos.forEach((item, i) => {
+        var position = videos.getBoundinClientRect();
+        console.log(position);
+      });
+    });
+  }
+  //play videos only when they are in the page
+}
+
 function footerCarousel() {
   var buttons = document.querySelectorAll('.footer-control');
   var footerSlides = document.querySelectorAll('.carousel-slide');
@@ -79,6 +94,10 @@ function footerCarousel() {
   }
 }footerCarousel();
 
+//todo click on the arrows when you cant go anywhere
+//add a three up column
+
 function init(){
   cardsHover();
+  // videoPLay();
 }init();
