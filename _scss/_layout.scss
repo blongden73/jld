@@ -1169,3 +1169,22 @@ footer {
     margin-right: 10px;
   }
 }
+
+.projects-flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 60px;
+
+  @include mq($from: tablet){
+    flex-direction: row;
+    padding-top: 120px;
+  }
+
+  .project-card {
+    margin-bottom: 30px;
+    margin-left: unset;
+    margin-right: unset;
+  }
+}
