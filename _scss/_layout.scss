@@ -189,6 +189,17 @@ h1 {
   }
 }
 
+
+h3 {
+  .project-images-wrapper & {
+    font-family: 'Boogy Brut Poster WBL White';
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+}
+
 h2 {
   font-size: 24px;
 
@@ -699,6 +710,16 @@ a {
 
   & > * {
     width: 48%;
+
+    @include mq($until: desktop) {
+      width: 100%;
+    }
+  }
+}
+
+.grid-images-three {
+  & > * {
+    width: 33%;
 
     @include mq($until: desktop) {
       width: 100%;

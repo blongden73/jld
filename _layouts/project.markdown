@@ -73,5 +73,50 @@ layout: default
         {% endunless %}
       </div>
     {% endif %}
+    {% if image.Text %}
+      <div class="jl-wrapper">
+        {{image.Text | markdownify}}
+      </div>
+    {% endif %}
+    {% if image.['Grid-three'] %}
+        {% assign gridimagesthree = image.['Grid-three'] %}
+          <div class="flex grid-images-three">
+            {% for gi in gridimagesthree %}
+            {% if gi.['Left Image'] %}
+              {% unless gi.['Left Image'] contains '.mp4' %}
+                <img loading="lazy" src="{{gi.['Left Image']}}">
+              {% else %}
+              <video playsinline muted loop>
+                <source src="{{gi.['Left Image']}}" type="video/mp4">
+              </video>
+            {% endunless %}
+            {% endif %}
+            {% if gi.['Middle Image'] %}
+              {% unless gi.['Middle Image'] contains '.mp4' %}
+                <img loading="lazy" src="{{gi.['Middle Image']}}">
+              {% else %}
+              <video playsinline muted loop>
+                <source src="{{gi.['Middle Image']}}" type="video/mp4">
+              </video>
+            {% endunless %}
+            {% endif %}
+            {% if gi.['Right Image'] %}
+              {% unless gi.['Right Image'] contains '.mp4' %}
+                <img loading="lazy" src="{{gi.['Right Image']}}">
+              {% else %}
+              <video playsinline muted loop>
+                <source src="{{gi.['Right Image']}}" type="video/mp4">
+              </video>
+            {% endunless %}
+            {% endif %}
+            {% if gi.['Right Image Video'] %}
+              <video width="320" height="240" controls loop>
+                <source src="{{gi.['Right Image Video']}}" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+            {% endif %}
+            {% endfor %}
+          </div>
+    {% endif %}
   {% endfor %}
 </div>
