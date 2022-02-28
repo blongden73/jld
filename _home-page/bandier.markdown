@@ -11,6 +11,10 @@ Images:
     Right Image: "/uploads/4-95936e.gif"
   Inset Image: 
   Text: This is some more text for the project
+  Grid-three:
+  - Left Image: "/uploads/4-95936e.gif"
+    Middle Image: "/uploads/4-95936e.gif"
+    Right Image: "/uploads/4-95936e.gif"
 - Grid:
   - Left Image: "/uploads/5.gif"
     Right Image: "/uploads/6-d85563.png"
