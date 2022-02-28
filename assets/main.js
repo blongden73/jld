@@ -54,7 +54,17 @@ if(sliderCheck) {
 function header() {
   var header = document.querySelector('header');
   var headerTracking = document.querySelector('.header-tracker');
+  var videos = document.querySelectorAll('video');
   document.addEventListener('scroll', function(){
+    for(i=0; i<videos.length; i++) {
+      var videoTop = videos[i].getBoundingClientRect().top;
+      var windowHeight = window.innerHeight / 2;
+      if(videoTop <= windowHeight && videoTop >= -10) {
+        videos[i].play();
+      }else {
+        videos[i].pause();
+      }
+    }
     var top = headerTracking.getBoundingClientRect().top;
     console.log(top);
     if(top <= -10) {

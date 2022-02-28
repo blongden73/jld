@@ -25,7 +25,7 @@ layout: default
         {% unless image.['Full Screen Image'] contains '.mp4' %}
           <img src="{{image.['Full Screen Image']}}">
           {% else %}
-          <video autoplay playsinline muted loop>
+          <video playsinline muted loop>
             <source src="{{image.['Full Screen Image']}}" type="video/mp4">
           </video>
         {% endunless %}
@@ -39,7 +39,7 @@ layout: default
               {% unless gi.['Left Image'] contains '.mp4' %}
                 <img loading="lazy" src="{{gi.['Left Image']}}">
               {% else %}
-              <video autoplay playsinline muted loop>
+              <video playsinline muted loop>
                 <source src="{{gi.['Left Image']}}" type="video/mp4">
               </video>
             {% endunless %}
@@ -48,7 +48,7 @@ layout: default
               {% unless gi.['Right Image'] contains '.mp4' %}
                 <img loading="lazy" src="{{gi.['Right Image']}}">
               {% else %}
-              <video autoplay playsinline muted>
+              <video playsinline muted loop>
                 <source src="{{gi.['Right Image']}}" type="video/mp4">
               </video>
             {% endunless %}
@@ -67,7 +67,7 @@ layout: default
         {% unless image.['Inset Image'] contains '.mp4' %}
           <img loading="lazy" src="{{image.['Inset Image']}}">
         {% else %}
-        <video autoplay playsinline muted>
+        <video playsinline muted>
           <source src="{{image.['Inset Image']}}" type="video/mp4">
         </video>
         {% endunless %}
