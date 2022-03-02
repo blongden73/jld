@@ -15,15 +15,15 @@ Images:
 - Grid:
   - Left Image: "/uploads/5-fc7c94.png"
     Right Image: "/uploads/6.gif"
+- Carousel:
+  - image: "/uploads/4-40a74c.png"
+  - image: "/uploads/3-fd571c.png"
+  - image: "/uploads/4-40a74c.png"
 - Full Screen Image: 
   Grid:
   - Left Image: 
     Right Image: 
   Inset Image: 
-  Carousel:
-  - image: "/uploads/4-40a74c.png"
-  - image: "/uploads/3-fd571c.png"
-  - image: "/uploads/4-40a74c.png"
 layout: project
 ---
 
