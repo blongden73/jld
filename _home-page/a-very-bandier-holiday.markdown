@@ -22,6 +22,8 @@ Images:
   Inset Image: 
   Carousel:
   - image: "/uploads/4-40a74c.png"
+  - image: "/uploads/3-fd571c.png"
+  - image: "/uploads/4-40a74c.png"
 layout: project
 ---
 
