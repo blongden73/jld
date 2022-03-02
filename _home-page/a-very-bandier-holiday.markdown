@@ -20,6 +20,8 @@ Images:
   - Left Image: 
     Right Image: 
   Inset Image: 
+  Carousel:
+  - image: "/uploads/4-40a74c.png"
 layout: project
 ---
 
