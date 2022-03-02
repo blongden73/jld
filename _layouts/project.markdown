@@ -118,5 +118,19 @@ layout: default
             {% endfor %}
           </div>
     {% endif %}
+    {% if image.Carousel %}
+      <div class="jl-wrapper">
+        <div class="project-carousel-images">
+          <div class="siema-project siema">
+            {% assign carouselImages = image.Carousel %}
+              {% for image in carouselImages %}
+              <div class="car-image">
+                <img src="{{image.image}}">
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
   {% endfor %}
 </div>

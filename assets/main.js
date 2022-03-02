@@ -36,12 +36,20 @@ function cardsHover() {
 // Otherwise show 1 slide per page
 
 var sliderCheck = document.querySelector('.siema');
+var sliderCheckProject = document.querySelector('.siema-project');
+
+if(sliderCheckProject) {
+  var slides = 2;
+} else {
+  var slides = 3;
+}
+
 
 if(sliderCheck) {
   const mySiema = new Siema({
     perPage: {
       920: 2,
-      1400: 3
+      1400: slides
     },
   });
   const prev = document.querySelector('.prev');
@@ -130,6 +138,4 @@ function init(){
 
 //// TODO:
 // carousel projects
-// project page text
-// first para and a read more
 // instagram
