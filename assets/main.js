@@ -59,7 +59,7 @@ function header() {
     for(i=0; i<videos.length; i++) {
       var videoTop = videos[i].getBoundingClientRect().top;
       var windowHeight = window.innerHeight / 2;
-      if(videoTop <= windowHeight && videoTop >= -10) {
+      if(videoTop <= windowHeight && videoTop >= -300) {
         videos[i].play();
       }else {
         videos[i].pause();
@@ -129,9 +129,7 @@ function init(){
 
 
 //// TODO:
-// carousel
-// add text above carousel on homepage
-// arrows carousels
+// carousel projects
 // project page text
 // first para and a read more
 // instagram

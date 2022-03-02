@@ -753,6 +753,14 @@ a {
       width: 100%;
     }
   }
+
+  video {
+    width: 48% !important;
+
+    @include mq($until: desktop) {
+      width: 100% !important;
+    }
+  }
 }
 
 .grid-images-three {
@@ -1054,7 +1062,7 @@ a {
   transform: translate(-50%, -50%);
   border: 1px solid rgba(0,0,0,0.5);
 
-  @include mq($until: tablet) {
+  @include mq($until: desktop) {
     width: 95%;
     height: auto;
     position: absolute;
