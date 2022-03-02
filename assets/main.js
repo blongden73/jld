@@ -126,3 +126,12 @@ function init(){
   header();
   // videoPLay();
 }init();
+
+
+//// TODO:
+// carousel
+// add text above carousel on homepage
+// arrows carousels
+// project page text
+// first para and a read more
+// instagram
