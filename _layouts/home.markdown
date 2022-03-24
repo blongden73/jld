@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="jl-wrapper jl-carousel-wrapper">
   <div class="jl-projects">
     <div class="intro-text">
