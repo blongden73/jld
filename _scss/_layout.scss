@@ -453,26 +453,35 @@ header {
   .intro-text {
     margin-bottom: 66px;
     text-align: center;
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
 
     h1 {
-      font-size: 40px;
+      font-size: 60px;
+      line-height: 1.1;
 
       @include mq($until: tablet) {
         font-size: 36px;
+        margin-top: 50px;
       }
     }
   }
 
   h1 {
     margin-top: 95px;
+
+    @include mq($from: tablet) {
+      margin-top: 175px;
+      margin-bottom: 155px;
+    }
   }
 }
 
 .project-title {
-  border-top: 1px solid #000;
-
   h2 {
     margin-top: 10px;
+    color: #fff;
   }
 }
 
@@ -480,6 +489,7 @@ header {
   h4 {
     font-size: 14px;
     margin-top: 0;
+    color: #fff;
   }
 }
 
@@ -500,7 +510,7 @@ a {
   animation-delay: 0.8s;
 
   @include mq($from: tablet) {
-    width: 360px;
+    width: 410px;
   }
 
   a {
@@ -513,8 +523,10 @@ a {
 
   img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
   }
 
   .siema & {
@@ -522,17 +534,39 @@ a {
       width: 75%;
     }
   }
+
+  &:hover {
+    .project-card-title-wrapper {
+      opacity: 1;
+    }
+
+    img {
+      opacity: 0.2;
+      z-index: 1;
+    }
+  }
+
+  .project-card-image-wrapper {
+    background-color: #000;
+    height: 100%;
+  }
+
+  .project-card-title-wrapper {
+    position: absolute;
+    opacity: 0;
+    width: 80%;
+    transition: all 0.3s ease-in-out;
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+  }
 }
 
 .project-card {
-  padding: 20px;
+  padding: 0px;
   border: 1px solid #000;
   margin-right: auto;
   margin-left: auto;
-
-  &:hover {
-    border: 3px solid #000;
-  }
 }
 
 .jl-about-wrapper {
@@ -904,6 +938,10 @@ a {
   z-index: 1000;
   pointer-events: all;
 
+  @include mq($from: desktop) {
+    top: 60%;
+  }
+
   button {
     background-color: transparent;
     border: none;
@@ -1263,6 +1301,12 @@ footer {
 .siema {
   & > div {
     transition: all ease-in-out 0.5s !important;
+  }
+
+  .project-card {
+    @include mq($from: desktop){
+      height: 584px;
+    }
   }
 }
 
