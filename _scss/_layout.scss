@@ -1320,7 +1320,7 @@ footer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding-top: 60px;
 
   @include mq($from: tablet){
@@ -1332,6 +1332,7 @@ footer {
     margin-bottom: 30px;
     margin-left: unset;
     margin-right: unset;
+    margin-right: 22px;
   }
 }
 
