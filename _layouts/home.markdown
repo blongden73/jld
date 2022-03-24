@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-
-<div class="video-header">
-  <video></video>
-</div>
-
 <div class="jl-wrapper jl-carousel-wrapper">
   <div class="jl-projects">
     <div class="intro-text">
