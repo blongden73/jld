@@ -37,13 +37,17 @@ layout: default
       {% for project in projects %}
         <div class="project-card">
           <a href="{{project.url}}"></a>
-          <div class="project-subtitle">
-            <h4>{{project.['Project Subtitle']}}</h4>
+          <div class="project-card-title-wrapper">
+            <div class="project-subtitle">
+              <h4>{{project.['Project Subtitle']}}</h4>
+            </div>
+            <div class="project-title">
+              <h2>{{project.title}}</h2>
+            </div>
           </div>
-          <div class="project-title">
-            <h2>{{project.title}}</h2>
+          <div class="project-card-image-wrapper">
+            <img src="{{project.Image}}">
           </div>
-          <img src="{{project.Image}}">
         </div>
       {% endfor %}
     </div>

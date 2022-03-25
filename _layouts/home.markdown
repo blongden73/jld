@@ -1,15 +1,35 @@
 ---
 layout: default
 ---
-<div class="jl-wrapper jl-carousel-wrapper">
+<div class="video-wrapper">
+  <div class="intro-text">
+  {% assign homepage = site.pages %}
+  {% for page in homepage %}
+    {% if page.title == "Home" %}
+      <h1>{{page.['Home page text']}}</h1>
+    {% endif %}
+  {% endfor %}
+  </div>
+  <video class="header-video" loop autoplay playsinline muted>
+    <source src="assets/8AB2CF44-6F93-4AFA-B234-B426B1EFACA2-8B1A92F4-464C-4397-9D4D-ADBDEED8D61C.mp4" type="video/mp4">
+  </video>
+  <div class="selected-work-label">
+    <span>
+      <a href="#projects">↓ Selected Projects</a>
+    </span>
+  </div>
+</div>
+<div id="projects" class="jl-wrapper jl-carousel-wrapper">
   <div class="jl-projects">
     <div class="intro-text">
+    <h1>Selected Projects</h1>
+    <!--
     {% assign homepage = site.pages %}
     {% for page in homepage %}
       {% if page.title == "Home" %}
         <h1>{{page.['Home page text']}}</h1>
       {% endif %}
-    {% endfor %}
+    {% endfor %}-->
     </div>
     {% assign projects = site.home-page | sort:"position" %}
     <div class="carousel-control-wrapper">
