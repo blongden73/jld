@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="video-wrapper">
   <div class="intro-text">
   {% assign homepage = site.pages %}
