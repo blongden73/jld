@@ -10,8 +10,8 @@ layout: default
     <div class="left">
       <div class="project-title-wrapper">
         <h1>{{page.title}}</h1>
-        {{page.content}}
         <h4>{{page.['Project Subtitle']}}</h4>
+        {{page.content}}
       </div>
     </div>
     <div class="right">

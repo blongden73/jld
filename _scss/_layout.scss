@@ -248,8 +248,8 @@ ul {
   justify-content: flex-start;
 
   svg {
-    margin-top: 25px;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
   }
 
   input {
@@ -591,8 +591,11 @@ a {
   }
 
   .project-card-image-wrapper {
-    background-color: #000;
     height: 100%;
+
+    @include mq($from: desktop) {
+      background-color: #000;
+    }
   }
 
   .project-card-title-wrapper {
@@ -1309,7 +1312,7 @@ footer {
     background-color: transparent;
     text-align: left;
     font-family: 'Boogy Brut Poster WBL White';
-    font-size: 50px;
+    font-size: 42px;
     color: #000;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1324,6 +1327,11 @@ footer {
     font-size: 25px;
     width: 80%;
     font-family: 'Boogy Brut Poster WBL White';
+
+    svg {
+      margin-left: 15px;
+      margin-top: 15px;
+    }
 
     ul {
       margin-left: auto;
