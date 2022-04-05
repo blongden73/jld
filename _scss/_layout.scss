@@ -879,6 +879,14 @@ a {
   }
 }
 
+.layout--project .sticky-version .flex{
+  flex-direction: column;
+
+  @include mq($from: tablet) {
+    flex-direction: row;
+  }
+}
+
 .layout--projects .jl-about-wrapper, .layout--about .jl-about-wrapper {
   background-color: transparent;
 }
