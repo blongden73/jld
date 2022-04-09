@@ -5,7 +5,7 @@ position: 3
 Project Subtitle: Brand Identity
 Image: "/uploads/1-34cc71.png"
 Images:
-- Full Screen Image: "/uploads/2-ea1a01.png"
+- Full Screen Image: "/uploads/APPROVED_Center%20Stage_1x1_V3.mp4"
 - Full Screen Image: "/uploads/ALLACCESS_2.png"
 - Full Screen Image: "/uploads/ALLACCESS_3.png"
 - Full Screen Image: "/uploads/ALLACCESS_4.png"
