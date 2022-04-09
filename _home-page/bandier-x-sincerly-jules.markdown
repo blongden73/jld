@@ -5,28 +5,12 @@ position: 5
 Project Subtitle: Art Direction — Graphic Design
 Image: "/uploads/1.png"
 Images:
-- Full Screen Image: "/uploads/2%20(lower%20res).mp4"
-  Grid:
-  - Left Image: "/uploads/3.png"
-    Right Image: "/uploads/4.gif"
-  Inset Image: 
-- Full Screen Image: "/uploads/5.mp4"
-  Grid:
-  - Left Image: "/uploads/6.png"
-    Right Image: "/uploads/7.gif"
-- Full Screen Image: "/uploads/8.mp4"
-  Grid:
-  - Left Image: "/uploads/9B.mp4"
-    Right Image: "/uploads/10B.mp4"
-- Full Screen Image: "/uploads/11.mp4"
-  Grid:
-  - Left Image: "/uploads/12.png"
-    Right Image: "/uploads/13.gif"
-- Full Screen Image: 
-  Grid:
-  - Left Image: 
-    Right Image: 
-  Inset Image: 
+- Full Screen Image: "/uploads/SINCERELYJULES_1.png"
+- Full Screen Image: "/uploads/SINCERELYJULES_2.png"
+- Full Screen Image: "/uploads/SINCERELYJULES_3.png"
+- Full Screen Image: "/uploads/SINCERELYJULES_4.png"
+- Full Screen Image: "/uploads/SINCERELYJULES_5.png"
+- Full Screen Image: "/uploads/SINCERELYJULES_6-54c712.png"
 layout: project
 ---
 
