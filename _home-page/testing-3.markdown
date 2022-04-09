@@ -3,9 +3,13 @@ title: Bandier x All Access
 date: 2021-12-21 23:09:00 Z
 position: 3
 Project Subtitle: Brand Identity
-Image: "/uploads/1-34cc71.png"
+Image: "/uploads/ALLACCESS_HERO.png"
 Images:
 - Full Screen Image: "/uploads/APPROVED_Center%20Stage_1x1_V3.mp4"
+  Grid:
+  - Left Image: 
+    Right Image: 
+  Inset Image: 
 - Full Screen Image: "/uploads/ALLACCESS_2.png"
 - Full Screen Image: "/uploads/ALLACCESS_3.png"
 - Full Screen Image: "/uploads/ALLACCESS_4.png"
