@@ -5,28 +5,12 @@ position: 2
 Project Subtitle: Art Direction — Graphic Design
 Image: "/uploads/1-9faa57.png"
 Images:
-- Full Screen Image: "/uploads/2-76e11d.gif"
-  Grid:
-  - Left Image: "/uploads/3-8d44de.png"
-    Right Image: "/uploads/4-95936e.gif"
-  Inset Image: 
-  Text: "### Project Subtitle \nThis is some more text for the project"
-  Grid-three:
-  - Left Image: "/uploads/4-95936e.gif"
-    Middle Image: "/uploads/4-95936e.gif"
-    Right Image: "/uploads/4-95936e.gif"
-- Grid:
-  - Left Image: "/uploads/5.gif"
-    Right Image: "/uploads/6-d85563.png"
-- Grid:
-  - Left Image: "/uploads/7.png"
-    Right Image: "/uploads/8.gif"
-- Full Screen Image: "/uploads/9.gif"
-- Full Screen Image: 
-  Grid:
-  - Left Image: 
-    Right Image: 
-  Inset Image: 
+- Full Screen Image: "/uploads/BANDIER_1-b97f5c.gif"
+- Full Screen Image: "/uploads/BANDIER_2.gif"
+- Full Screen Image: "/uploads/BANDIER_3.png"
+- Full Screen Image: "/uploads/BANDIER_4.png"
+- Full Screen Image: "/uploads/BANDIER_5.png"
+- Full Screen Image: "/uploads/BANDIER_6.png"
 layout: project
 ---
 
