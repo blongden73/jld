@@ -3,7 +3,7 @@ title: Bandier x Sincerly Jules
 date: 2022-01-23 21:57:00 Z
 position: 5
 Project Subtitle: Art Direction — Graphic Design
-Image: "/uploads/1.png"
+Image: "/uploads/SINCERELYJULES_HERO.png"
 Images:
 - Full Screen Image: "/uploads/SINCERELYJULES_1.png"
 - Full Screen Image: "/uploads/SINCERELYJULES_2.png"
