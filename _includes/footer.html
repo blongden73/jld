@@ -2,9 +2,15 @@
   <div class="flex jld-footer">
     <div class="left">
       <div class="footer-background-image">
-        <img class="visible contact" src="/assets/contact1.jpg">
-        <img class="clients" src="/assets/contact2.jpg">
-        <img class="about" src="/assets/contact3.jpg">
+
+        {% assign homepage = site.pages %}
+        {% for page in homepage %}
+          {% if page.title == "Home" %}
+            <img class="visible contact" src="{{page.['Footer Image']}}">
+            <img class="clients" src="{{page.['Footer Two Image']}}">
+            <img class="about" src="{{page.['Footer Three Image']}}">
+          {% endif %}
+        {% endfor %}
       </div>
       <div class="centered">
         <div class="footer-controls">
