@@ -9,7 +9,7 @@ Images:
   Grid:
   - Left Image: 
     Right Image: 
-- Full Screen Image: "/uploads/BANDIER_3-2.png"
+- Full Screen Image: "/uploads/BANDIER_3-2dc1f1.png"
 - Full Screen Image: "/uploads/BANDIER_3-07f735.png"
 - Full Screen Image: "/uploads/BANDIER_4-11ee23.png"
 - Full Screen Image: "/uploads/BANDIER_3-1.png"
