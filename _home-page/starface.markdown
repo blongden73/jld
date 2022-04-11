@@ -6,9 +6,6 @@ Project Subtitle: Product Design
 Image: "/uploads/STARFACE_HERO-1.png"
 Images:
 - Full Screen Image: "/uploads/2-39dc3a.png"
-  Grid:
-  - Left Image: "/uploads/3-d192e8.png"
-    Right Image: "/uploads/4-0f7f82.gif"
   Inset Image: 
 - Full Screen Image: 
   Grid:
