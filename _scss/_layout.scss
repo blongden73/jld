@@ -624,6 +624,12 @@ a {
   padding-top: 5vh;
   height: auto;
 
+  a {
+    @include mq($until: desktop) {
+      border-bottom: 1px solid #000;
+    }
+  }
+
   @include mq($from: desktop) {
     height: auto;
     min-height: 800px;
@@ -1625,7 +1631,7 @@ footer {
   right: 0;
   bottom: 0;
   display: block;
-  background-color: dimgrey;
+  background-color: #000;
   z-index: 1000;
   visibility: hidden;
   pointer-events: none;
