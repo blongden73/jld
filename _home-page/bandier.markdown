@@ -1,7 +1,7 @@
 ---
 title: Bandier
 date: 2021-12-21 23:06:00 Z
-position: 1
+position: 0
 Project Subtitle: Graphic Design
 Image: "/uploads/BANDIER_HERO3.png"
 Images:

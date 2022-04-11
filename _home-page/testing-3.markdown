@@ -1,7 +1,7 @@
 ---
 title: Bandier x All Access
 date: 2021-12-21 23:09:00 Z
-position: 3
+position: 2
 Project Subtitle: Brand Identity
 Image: "/uploads/ALLACCESS_HERO.png"
 Images:
