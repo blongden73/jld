@@ -6,11 +6,15 @@ Project Subtitle: Art Direction
 Image: "/uploads/LEISURE_PROJECT_HERO.png"
 Images:
 - Full Screen Image: "/uploads/LEISURE_PROJECT_1.gif"
+  Grid:
+  - Left Image: 
+    Right Image: 
+  Inset Image: 
 - Full Screen Image: "/uploads/LEISURE_PROJECT_2.png"
 - Full Screen Image: "/uploads/LEISURE_PROJECT_3.png"
 - Full Screen Image: "/uploads/LEISURE_PROJECT_4.gif"
 - Full Screen Image: "/uploads/LEISURE_PROJECT_5.png"
-layout: projects
+layout: project
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
