@@ -905,7 +905,7 @@ a {
 .layout--projects , .layout--about {
 
   .jl-about {
-      width: 96%;
+      width: 90%;
       margin-left: auto;
       margin-right: auto;
       padding-top: 13vh;
@@ -927,6 +927,11 @@ a {
 
    .about-left {
      width: 100% ;
+
+     @include mq($until: desktop) {
+       margin-bottom: -5px;
+     }
+
      @include mq($from: desktop) {
        width: 55%;
        margin-top: -100px;
@@ -935,6 +940,11 @@ a {
      img {
        width: 100%;
        height: auto;
+       
+         @include mq($until: desktop) {
+           border: 1px solid #000;
+          box-sizing: border-box;
+        }
      }
    }
    .about-right {
@@ -956,8 +966,15 @@ a {
      }
 
      .jld-logo-about {
-       right: -44px;
-       top: 80px;
+       left: 50%;
+       top: -25px;
+       transform: translateX(-50%);
+
+       @include mq($from: desktop) {
+         right: -44px;
+         top: 80px;
+         transform: unset;
+       }
 
        svg {
          circle {
@@ -1658,5 +1675,14 @@ footer {
     a {
     font-family: 'Boogy Brut Poster WBL White';
     }
+  }
+}
+
+.carousel-inner {
+  @include mq($until: desktop) {
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
