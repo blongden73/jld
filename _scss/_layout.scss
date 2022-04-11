@@ -514,7 +514,7 @@ header {
     margin-top: 95px;
 
     @include mq($from: tablet) {
-      margin-top: 175px;
+      margin-top: 155px;
       margin-bottom: 155px;
     }
   }
@@ -571,6 +571,7 @@ a {
     background-color: #000;
     transition: all 0.3s ease-in-out;
     border: 1px solid #000;
+    min-height: 574px;
   }
 
   .siema & {
