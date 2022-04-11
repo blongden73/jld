@@ -6,14 +6,11 @@ Project Subtitle: Graphic Design
 Image: "/uploads/BANDIER_HERO-10f71a.png"
 Images:
 - Full Screen Image: "/uploads/BANDIER_1-b97f5c.gif"
-  Grid:
-  - Left Image: 
-    Right Image: 
-- Full Screen Image: "/uploads/BANDIER_3-2dc1f1.png"
-- Full Screen Image: "/uploads/BANDIER_3-07f735.png"
-- Full Screen Image: "/uploads/BANDIER_4-11ee23.png"
-- Full Screen Image: "/uploads/BANDIER_3-1.png"
-- Full Screen Image: "/uploads/BANDIER_6-ad97c4.png"
+- Full Screen Image: "/uploads/BANDIER_2-b4a7db.gif"
+- Full Screen Image: "/uploads/BANDIER_3-e24266.png"
+- Full Screen Image: "/uploads/BANDIER_4-08a446.png"
+- Full Screen Image: "/uploads/BANDIER_5-1a8d9b.png"
+- Full Screen Image: "/uploads/BANDIER_6-eed441.png"
 layout: project
 ---
 
