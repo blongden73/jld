@@ -246,6 +246,7 @@ ul {
 
 .flex-start {
   justify-content: flex-start;
+  flex-direction: row !important;
 
   svg {
     margin-top: 20px;
@@ -1312,19 +1313,23 @@ footer {
     background-color: transparent;
     text-align: left;
     font-family: 'Boogy Brut Poster WBL White';
-    font-size: 42px;
+    font-size: 32px;
     color: #000;
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 0;
     padding-left: 0;
     margin-left: 0;
+
+    @include mq($from: desktop) {
+      font-size: 42px;
+    }
   }
 }
 
 .footer-about, .footer-clients {
   span, ul {
-    font-size: 25px;
+    font-size: 32px;
     width: 80%;
     font-family: 'Boogy Brut Poster WBL White';
 
