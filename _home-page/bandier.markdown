@@ -3,18 +3,17 @@ title: Bandier
 date: 2021-12-21 23:06:00 Z
 position: 0
 Project Subtitle: Graphic Design
-Image: "/uploads/BANDIER_HERO3.png"
+Image: "/uploads/BANDIER_HERO-10f71a.png"
 Images:
 - Full Screen Image: "/uploads/BANDIER_1-b97f5c.gif"
   Grid:
   - Left Image: 
     Right Image: 
-  Inset Image: 
-- Full Screen Image: "/uploads/BANDIER_2.gif"
-- Full Screen Image: "/uploads/BANDIER_3.png"
-- Full Screen Image: "/uploads/BANDIER_4.png"
-- Full Screen Image: "/uploads/BANDIER_5.png"
-- Full Screen Image: "/uploads/BANDIER_6.png"
+- Full Screen Image: "/uploads/BANDIER_3-2.png"
+- Full Screen Image: "/uploads/BANDIER_3-07f735.png"
+- Full Screen Image: "/uploads/BANDIER_4-11ee23.png"
+- Full Screen Image: "/uploads/BANDIER_3-1.png"
+- Full Screen Image: "/uploads/BANDIER_6-ad97c4.png"
 layout: project
 ---
 
