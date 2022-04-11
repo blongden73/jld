@@ -1065,7 +1065,7 @@ a {
 
     @include mq($until: desktop) {
       width: 100%;
-      height: 50vh;
+      height: 30vh;
     }
   }
 
@@ -1087,11 +1087,16 @@ a {
     color: #E8E7DF;
 
     @include mq($until: desktop) {
-      font-size: 62px;
+      font-size: 42px;
+      display: flex;
     }
 
     .footer-control {
       display: inline-block;
+
+      @include mq($until: desktop) {
+        display: block;
+      }
 
       &.active {
         border-bottom: 1px solid #fff;
@@ -1105,6 +1110,11 @@ a {
 
     div:nth-child(even) {
       margin-left: 140px;
+
+      @include mq($until: desktop) {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
     }
 }
 
