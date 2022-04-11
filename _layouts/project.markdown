@@ -15,7 +15,6 @@ layout: default
       </div>
     </div>
     <div class="right">
-
       <div class="project-images-wrapper">
         {% for image in images %}
           {% if image.['Full Screen Image'] %}
@@ -132,6 +131,51 @@ layout: default
           {% endif %}
         {% endfor %}
       </div>
+
+      {% assign onwardList = site.home-page | where: 'type', page.type | where_exp:"item", "item.hidden != true" %}
+      {% assign onwardPage = onwardList | reverse %}
+
+      {% if onwardPage.size > 1 %}
+        {% for item in onwardPage %}
+          {% if item.title == page.title %}
+            {% assign item_index = forloop.index %}
+          {% endif %}
+        {% endfor %}
+
+        {% assign prev_index = item_index | plus: 1 %}
+        {% assign next_index = item_index | minus: 1 %}
+
+        {% for item in onwardPage %}
+          {% if forloop.index == prev_index %}
+            {% assign prev = item %}
+          {% endif %}
+          {% if forloop.index == next_index %}
+            {% assign next = item %}
+          {% endif %}
+        {% endfor %}
+
+        <div class="flex onward__journeys-wrapper">
+          <div class="flex__leftCol"></div>
+          <div class="flex__mainCol">
+            <div class="onward__journeys-flex flex">
+              {% if prev %}
+                <div class="flex--previous">
+                  <h2><a href="{{ prev.url }}" class="prev" title="{{ prev.title }}"><span class="onward__journeys-label">Previous</span> <span class="previous--{{prev.Colours}}">{{ prev.title | replace: ' | ', ' ' }}</span></a></h2>
+                  <h2 class="onward__journeys-arrow">←</h2>
+                </div>
+              {% endif %}
+              {% if next %}
+                <div class="flex--next">
+                  <h2><a href="{{ next.url }}" class="next" title="{{ next.title }}"><span class="onward__journeys-label">Next up</span> <span class="next--{{next.Colours}}">{{ next.title | replace: ' | ', ' ' }}</span></a></h2>
+                  <h2 class="onward__journeys-arrow">→</h2>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+          <div class="flex__rightCol"></div>
+        </div>
+      {% endif %}
+
     </div>
   </div>
 </div>

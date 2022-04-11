@@ -807,6 +807,13 @@ a {
     line-height: 1.5;
   }
 
+  h4 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
   h1 {
     @include mq($until: desktop) {
       margin-top: 5px;
@@ -991,7 +998,7 @@ a {
 
        @include mq($from: desktop) {
          font-size: 2vw !important;
-         line-height: 2.2vw !important;
+         line-height: 2.5vw !important;
          padding-left: 30px;
        }
      }
@@ -1573,6 +1580,7 @@ footer {
 
     @include mq($from: desktop) {
       position: sticky;
+      max-width: 40%;
     }
   }
 
@@ -1586,7 +1594,7 @@ footer {
   }
 
   .project-images-wrapper {
-    padding-top: 100px;
+    // padding-top: 100px;
 
     .project-fullscreen {
       width: 100%;
@@ -1688,5 +1696,37 @@ footer {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+.flex--previous {
+  margin-right: 20px;
+}
+
+.flex--previous, .flex--next {
+  font-weight: 100;
+
+  h2 {
+    font-weight: 100;
+  }
+}
+
+.onward__journeys-flex {
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.flex__mainCol {
+  width: 98%;
+}
+
+.onward__journeys-label {
+  font-family: 'Boogy Brut Poster WBL White';
+  font-weight: 100;
+}
+
+.onward__journeys-wrapper {
+  @include mq($until: desktop) {
+    padding: 20px;
   }
 }
