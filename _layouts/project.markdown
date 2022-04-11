@@ -160,14 +160,12 @@ layout: default
             <div class="onward__journeys-flex flex">
               {% if prev %}
                 <div class="flex--previous">
-                  <h2><a href="{{ prev.url }}" class="prev" title="{{ prev.title }}"><span class="onward__journeys-label">Previous</span> <span class="previous--{{prev.Colours}}">{{ prev.title | replace: ' | ', ' ' }}</span></a></h2>
-                  <h2 class="onward__journeys-arrow">←</h2>
+                  <h2><a href="{{ prev.url }}" class="prev" title="{{ prev.title }}"><span class="onward__journeys-label">Previous</span> <span class="previous--{{prev.Colours}} previous-project">{{ prev.title | replace: ' | ', ' ' }}</span></a></h2>
                 </div>
               {% endif %}
               {% if next %}
                 <div class="flex--next">
-                  <h2><a href="{{ next.url }}" class="next" title="{{ next.title }}"><span class="onward__journeys-label">Next up</span> <span class="next--{{next.Colours}}">{{ next.title | replace: ' | ', ' ' }}</span></a></h2>
-                  <h2 class="onward__journeys-arrow">→</h2>
+                  <h2><a href="{{ next.url }}" class="next" title="{{ next.title }}"><span class="onward__journeys-label">Next up</span> <span class="next--{{next.Colours}} next-project">{{ next.title | replace: ' | ', ' ' }}</span></a></h2>
                 </div>
               {% endif %}
             </div>

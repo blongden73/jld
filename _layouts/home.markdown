@@ -17,6 +17,8 @@ layout: default
     {% if page.title == "Home" %}
     <video class="header-video" loop autoplay playsinline muted>
       <source src="{{page.['Home Video']}}" type="video/mp4">
+      <source src="{{page.['Home Video']}}" type="video/ogg">
+      <source src="{{page.['Home Video']}}" type="video/webm">
     </video>
     {% endif %}
   {% endfor %}
