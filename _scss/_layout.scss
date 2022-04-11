@@ -623,6 +623,8 @@ a {
   padding-bottom: 5vh;
   padding-top: 5vh;
   height: auto;
+  display: flex;
+  flex-direction: column;
 
   a {
     @include mq($until: desktop) {
@@ -1430,6 +1432,7 @@ footer {
   flex-wrap: wrap;
   justify-content: flex-start;
   padding-top: 60px;
+  justify-content: center;
 
   @include mq($from: tablet){
     flex-direction: row;
