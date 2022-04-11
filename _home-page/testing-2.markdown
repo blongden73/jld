@@ -1,7 +1,7 @@
 ---
 title: Seaworthy PDX
 date: 2021-12-21 23:07:00 Z
-position: 1
+position: 6
 Project Subtitle: 'Art Direction '
 Image: "/uploads/SEAWORTHY_HERO.png"
 Images:
