@@ -6,15 +6,12 @@ Project Subtitle: Brand Identity
 Image: "/uploads/ALLACCESS_HERO.png"
 Images:
 - Full Screen Image: "/uploads/APPROVED_Center%20Stage_1x1_V3.mp4"
-  Grid:
-  - Left Image: 
-    Right Image: 
   Inset Image: 
 - Full Screen Image: "/uploads/ALLACCESS_2.png"
 - Full Screen Image: "/uploads/ALLACCESS_3.png"
 - Full Screen Image: "/uploads/ALLACCESS_4.png"
 - Full Screen Image: "/uploads/ALLACCESS_5.png"
-- Full Screen Image: "/uploads/ALLACCESS_6.png"
+- Full Screen Image: "/uploads/ALLACCESS_6-39763a.png"
 - Full Screen Image: "/uploads/ALLACCESS_7.png"
 layout: project
 ---
