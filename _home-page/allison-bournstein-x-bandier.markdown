@@ -1,5 +1,5 @@
 ---
-title: Allison Bournstein x Bandier
+title: Bandier x Allison Bournstein
 date: 2022-04-09 19:21:00 Z
 position: 1
 Project Subtitle: Art Direction
