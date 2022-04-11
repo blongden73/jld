@@ -11,9 +11,15 @@ layout: default
     {% endif %}
   {% endfor %}
   </div>
-  <video class="header-video" loop autoplay playsinline muted>
-    <source src="assets/8AB2CF44-6F93-4AFA-B234-B426B1EFACA2-8B1A92F4-464C-4397-9D4D-ADBDEED8D61C.mp4" type="video/mp4">
-  </video>
+
+  {% assign homepage = site.pages %}
+  {% for page in homepage %}
+    {% if page.title == "Home" %}
+    <video class="header-video" loop autoplay playsinline muted>
+      <source src="{{page.['Home Video']}}" type="video/mp4">
+    </video>
+    {% endif %}
+  {% endfor %}
   <div class="selected-work-label">
     <span>
       <a href="#projects">↓ Selected Projects</a>
