@@ -1,5 +1,5 @@
 ---
-title: Bandier x Allison Bournstein
+title: Stylist in Malibu
 date: 2022-04-09 19:21:00 Z
 position: 1
 Project Subtitle: Art Direction
