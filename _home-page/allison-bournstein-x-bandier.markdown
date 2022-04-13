@@ -1,5 +1,5 @@
 ---
-title: Stylist in Malibu
+title: Malibu Stylist x Bandier
 date: 2022-04-09 19:21:00 Z
 position: 1
 Project Subtitle: Art Direction
