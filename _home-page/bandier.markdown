@@ -6,7 +6,8 @@ Project Subtitle: Graphic Design
 Image: "/uploads/BANDIER_HERO-10f71a.png"
 Images:
 - Full Screen Image: "/uploads/BANDIER_1-b97f5c.gif"
-- Full Screen Image: "/uploads/BANDIER_2-b4a7db.gif"
+  Inset Image: 
+- Full Screen Image: "/uploads/BANDIER_2A.png"
 - Full Screen Image: "/uploads/BANDIER_3-e24266.png"
 - Full Screen Image: "/uploads/BANDIER_4-08a446.png"
 - Full Screen Image: "/uploads/BANDIER_5-1a8d9b.png"
