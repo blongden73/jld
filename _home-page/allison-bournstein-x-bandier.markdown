@@ -17,4 +17,4 @@ Images:
 layout: project
 ---
 
-A Stylist in Malibu is the second collaboration between Bandier and Allison Bournstein. Allison Bournstein is a stylist based in New York who was temporarily living in California for a few months. Her style is luxe, seamless, and functional which goes hand-in-hand with Bandier. Allison styled each look as I worked on set to represent the Bandier team. Post shoot, I worked with the Bandier team to develop digital assets. 
+A Stylist in Malibu is the second collaboration between Bandier and Allison Bournstein. Allison Bournstein is a stylist based in New York who was temporarily living in California for a few months. Her style is luxe, seamless, and functional which goes hand-in-hand with Bandier. Allison styled each look as I worked on set to represent the Bandier team. Post shoot, I worked with the Bandier team to develop digital assets.
