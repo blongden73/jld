@@ -18,4 +18,4 @@ Images:
 layout: project
 ---
 
-Bandier partnered with fashion and style icon Sincerely Jules to launch 4 collections that were featured on bandier.com and amazon.com, both of which I managed the digital experiences for. This project provided insight in implementing brand identity on Amazon – a very transactional platform and a strong business driver.
+Bandier partnered with fashion and style icon Sincerely Jules to launch 4 collections that were featured on bandier.com and amazon.com, both of which I managed the digital experiences for. This project provided insight in implementing brand identity on Amazon – a very transactional platform and a strong business driver. I chose to feature my two favorite launches, the first and the fourth collection. Along with web design included a variety of emails and social assets that reflected style of each collection.
