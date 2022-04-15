@@ -2,10 +2,13 @@
 title: Bandier
 date: 2021-12-21 23:06:00 Z
 position: 0
-Project Subtitle: Art Director
+Project Subtitle: Art Direction
 Image: "/uploads/BANDIER_HERO-10f71a.png"
 Images:
 - Full Screen Image: "/uploads/BANDIER_1-b97f5c.gif"
+  Grid:
+  - Left Image: 
+    Right Image: 
   Inset Image: 
 - Full Screen Image: "/uploads/BANDIER_2A.png"
 - Full Screen Image: "/uploads/BANDIER_3-e24266.png"
