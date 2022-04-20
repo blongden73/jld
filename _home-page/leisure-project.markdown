@@ -1,7 +1,7 @@
 ---
 title: Leisure Project
 date: 2022-04-11 00:50:00 Z
-position: 3
+position: 4
 Project Subtitle: Art Direction
 Image: "/uploads/LEISURE_PROJECT_HERO.png"
 Images:

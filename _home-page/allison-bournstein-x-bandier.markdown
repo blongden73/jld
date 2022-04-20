@@ -1,7 +1,7 @@
 ---
 title: A Stylist in Malibu
 date: 2022-04-09 19:21:00 Z
-position: 1
+position: 3
 Project Subtitle: Art Direction
 Image: "/uploads/ALLISONB_HERO1.png"
 Images:
