@@ -17,4 +17,4 @@ Images:
 layout: project
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+I partnered with Leisure Project for the launch of their NFT, Leisure Creatures. Since then, I have been Art Directing for the beverage brand. I have been the lead designer and art director for everything from packaging to digital assets to photoshoots.
