@@ -2,6 +2,7 @@
 title: Bandier x Sustainability
 date: 2022-04-15 17:10:00 Z
 published: false
+position: 7
 layout: project
 ---
 
