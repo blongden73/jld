@@ -11,13 +11,11 @@ layout: default
     {% endif %}
   {% endfor %}
   </div>
-
-  {% assign homepage = site.pages %}
   {% for page in homepage %}
     {% if page.title == "Home" %}
     <video class="header-video" loop autoplay playsinline muted>
       <source src="{{page.['Home Video']}}" type="video/mp4">
-      <source src="{{page.['Home Video']}}" type="video/ogg">
+      <source src="{{page.['Home Video OGG']}}" type="video/ogg">
       <source src="{{page.['Home Video']}}" type="video/webm">
     </video>
     {% endif %}
