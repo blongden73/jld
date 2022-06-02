@@ -1134,6 +1134,8 @@ a {
 
     .footer-control {
       display: inline-block;
+      box-sizing: border-box;
+      border-bottom: 1px solid transparent;
 
       @include mq($until: desktop) {
         display: block;
