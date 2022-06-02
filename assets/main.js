@@ -47,6 +47,7 @@ if(sliderCheckProject) {
 
 if(sliderCheck) {
   const mySiema = new Siema({
+    loop: true,
     perPage: {
       920: 2,
       1400: slides

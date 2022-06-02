@@ -430,8 +430,16 @@ header {
     }
   }
 
+  a:hover {
+    border-bottom: 1px solid #fff;
+  }
+
   &.scrolling {
     background-color: $gold;
+
+    a:hover {
+      border-bottom: 1px solid #000;
+    }
 
     h1 {
       color: #000;
