@@ -179,6 +179,12 @@ if (end == null) {
 function hamburger(){
   var ham = document.querySelector('.hamburger');
   var menu = document.querySelector('.mobile-menu');
+  var contact = document.querySelector('.js-contact');
+
+  contact.addEventListener('click', function(){
+    ham.classList.toggle('open');
+    menu.classList.toggle('open');
+  })
 
   ham.addEventListener('click', function(){
     this.classList.toggle('open');

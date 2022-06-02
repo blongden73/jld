@@ -571,6 +571,7 @@ a {
     right: 0;
     bottom: 0;
     z-index: 100;
+    border-bottom: none !important;
   }
 
   img {
@@ -581,6 +582,10 @@ a {
     transition: all 0.3s ease-in-out;
     border: 1px solid #000;
     min-height: 574px;
+
+    @include mq($until: tablet) {
+      min-height: 450px;
+    }
   }
 
   .siema & {
@@ -616,6 +621,11 @@ a {
     top: 40px;
     left: 40px;
     z-index: 2;
+
+    @include mq($until: tablet) {
+      opacity: 1
+      ;
+    }
   }
 }
 
@@ -1106,7 +1116,7 @@ a {
 
     @include mq($until: desktop) {
       width: 100%;
-      height: 30vh;
+      height: 10vh;
     }
   }
 
@@ -1155,8 +1165,8 @@ a {
       margin-left: 140px;
 
       @include mq($until: desktop) {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
       }
     }
 }
@@ -1412,6 +1422,13 @@ footer {
     display: block;
     margin-top: 20px;
     width: max-content;
+    border-bottom: 1px solid transparent;
+    box-sizing: border-box;
+    padding-bottom: 4px;
+
+    &:hover {
+      border-bottom: 1px solid #000;
+    }
   }
 }
 
@@ -1462,6 +1479,11 @@ footer {
     margin-right: unset;
     margin-right: 22px;
     min-height: 580px;
+
+    @include mq($until: tablet){
+      min-height: 450px;
+      margin-right: 0;
+    }
   }
 }
 
@@ -1743,4 +1765,15 @@ footer {
 
 .previous-project, .next-project {
   font-size: 22px;
+}
+
+.jld-contact-form {
+
+  [value="Get in touch"] {
+    border-bottom: 1px solid transparent;
+  }
+
+  input:hover {
+    border-bottom: 1px solid #000;
+  }
 }
