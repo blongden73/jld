@@ -5,7 +5,7 @@ Home page text: LA-based ART DIRECTOR elevating brands through MINDFUL and IMPAC
   visual storytelling
 Footer Image: "/assets/contact1.jpg"
 Footer Two Image: "/assets/contact2.jpg"
-Footer Three Image: "/assets/contact3.jpg"
+Footer Three Image: "/uploads/jl27.jpg"
 Home Video: "/uploads/8AB2CF44-6F93-4AFA-B234-B426B1EFACA2-8B1A92F4-464C-4397-9D4D-ADBDEED8D61C_low_low.mp4"
 Home Video OGG: "/uploads/8AB2CF44-6F93-4AFA-B234-B426B1EFACA2-8B1A92F4-464C-4397-9D4D-ADBDEED8D61C.ogg"
 layout: home
