@@ -12,7 +12,7 @@ Images:
   Inset Image: 
 - Full Screen Image: "/uploads/SINCERELYJULES_2.png"
 - Full Screen Image: "/uploads/SINCERELYJULES_3.png"
-- Full Screen Image: "/uploads/SINCERELYJULES_4-1d46d4.png"
+- Full Screen Image: "/uploads/SINCERELYJULES_4-089e72.png"
 - Full Screen Image: "/uploads/SINCERELYJULES_5.png"
 - Full Screen Image: "/uploads/SINCERELYJULES_6-54c712.png"
 layout: project
