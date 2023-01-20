@@ -1,5 +1,5 @@
 ---
-title: Bandier x Sincerly Jules
+title: Bandier x Sincerely Jules
 date: 2022-01-23 21:57:00 Z
 position: 1
 Project Subtitle: 'Art Direction '
