@@ -5,7 +5,7 @@ position: 0
 Project Subtitle: Art Direction
 Image: "/uploads/Vivant%20Skincare_Hero.png"
 Images:
-- Full Screen Image: "/uploads/Vivant%20Skincare-01-0b2835.mp4"
+- Full Screen Image: "/uploads/Vivant-Skincare-01-991f10.gif"
 - Full Screen Image: "/uploads/Vivant%20Skin%20Care-02.png"
 - Full Screen Image: "/uploads/Vivant%20Skin%20Care-03.png"
 - Full Screen Image: "/uploads/Vivant%20Skin%20Care-06-2.png"
