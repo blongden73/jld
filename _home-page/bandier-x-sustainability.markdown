@@ -2,6 +2,7 @@
 title: Vivant Skin Care
 date: 2022-04-15 17:10:00 Z
 position: 0
+Project Subtitle: Art Direction
 Image: "/uploads/Vivant%20Skincare_Hero.png"
 Images:
 - Full Screen Image: "/uploads/Vivant-Skincare-01.gif"
