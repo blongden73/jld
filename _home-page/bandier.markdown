@@ -1,7 +1,7 @@
 ---
 title: Bandier
 date: 2021-12-21 23:06:00 Z
-position: 0
+position: 1
 Project Subtitle: Art Direction
 Image: "/uploads/BANDIER_HERO-10f71a.png"
 Images:
