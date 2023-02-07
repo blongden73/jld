@@ -10,13 +10,13 @@ Images:
   - Left Image: 
     Right Image: 
   Inset Image: 
-- Full Screen Image: "/uploads/Vivant%20Skin%20Care-02.png"
-- Full Screen Image: "/uploads/Vivant%20Skin%20Care-03.png"
-- Full Screen Image: "/uploads/Vivant%20Skin%20Care-06-2.png"
-- Full Screen Image: "/uploads/Vivant%20Skin%20Care-05.png"
-- Full Screen Image: "/uploads/Vivant%20Skin%20Care-06-2-0ba29f.png"
-- Full Screen Image: "/uploads/Vivant%20Skin%20Care-07.png"
-- Full Screen Image: "/uploads/Vivant%20Skin%20Care-08.png"
+- Inset Image: "/uploads/Vivant%20Skin%20Care-02.png"
+- Inset Image: "/uploads/Vivant%20Skin%20Care-03.png"
+- Inset Image: "/uploads/Vivant%20Skin%20Care-06-2.png"
+- Inset Image: "/uploads/Vivant%20Skin%20Care-05.png"
+- Inset Image: "/uploads/Vivant%20Skin%20Care-06-2-0ba29f.png"
+- Inset Image: "/uploads/Vivant%20Skin%20Care-07.png"
+- Inset Image: "/uploads/Vivant%20Skin%20Care-08.png"
 layout: project
 ---
 
