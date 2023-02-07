@@ -16,4 +16,4 @@ Images:
 layout: project
 ---
 
-As one of the brand’s lead designers at Bandier, I’ve handled everything from logo redesign to print collateral; web design to paid ads. I spent time as a full-time consultant, leading the charge on all things design and eventually moving into creative art direction.
+Vivant is a medical grade skin care company backed by science. I joined the team to rebrand their social channels. While keeping with the brand guidelines, we are working together to reshape visuals for their profile. It includes everything from their typefaces, color palette, infographics, and photography refresh.
