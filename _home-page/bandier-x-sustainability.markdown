@@ -20,3 +20,4 @@ Images:
 layout: project
 ---
 
+As one of the brand’s lead designers at Bandier, I’ve handled everything from logo redesign to print collateral; web design to paid ads. I spent time as a full-time consultant, leading the charge on all things design and eventually moving into creative art direction.
