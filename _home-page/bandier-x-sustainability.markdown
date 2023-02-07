@@ -16,4 +16,4 @@ Images:
 layout: project
 ---
 
-Vivant is a medical grade skin care company backed by science. I joined the team to rebrand their social channels. While keeping with the brand guidelines, we are working together to reshape visuals for their profile. It includes everything from their typefaces, color palette, infographics, and photography refresh.
+Vivant is a medical grade skin care company backed by science. I was hired to modernize and energize the social feed and give life to an established and respected brand.
