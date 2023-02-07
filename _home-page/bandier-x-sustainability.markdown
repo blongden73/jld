@@ -1,7 +1,5 @@
 ---
-title: |-
-  Vivant
-  Skin Care
+title: Vivant Skin Care
 date: 2022-04-15 17:10:00 Z
 position: 0
 Project Subtitle: Art Direction
