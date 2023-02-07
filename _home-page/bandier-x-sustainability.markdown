@@ -4,12 +4,16 @@ date: 2022-04-15 17:10:00 Z
 position: 0
 Image: "/uploads/Vivant%20Skincare_Hero.png"
 Images:
-- Full Screen Image: 
+- Full Screen Image: "/uploads/Vivant-Skincare-01.gif"
+  Grid:
+  - Left Image: 
+    Right Image: 
+  Inset Image: 
 - Full Screen Image: "/uploads/Vivant%20Skin%20Care-02.png"
 - Full Screen Image: "/uploads/Vivant%20Skin%20Care-03.png"
-- Full Screen Image: 
+- Full Screen Image: "/uploads/Vivant%20Skin%20Care-06-2.png"
 - Full Screen Image: "/uploads/Vivant%20Skin%20Care-05.png"
-- Full Screen Image: 
+- Full Screen Image: "/uploads/Vivant%20Skin%20Care-06-2-0ba29f.png"
 - Full Screen Image: "/uploads/Vivant%20Skin%20Care-07.png"
 - Full Screen Image: "/uploads/Vivant%20Skin%20Care-08.png"
 layout: project
