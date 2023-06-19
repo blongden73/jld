@@ -1,5 +1,5 @@
 ---
-title: Leisure Project
+title: Leisure Creatures NFT
 date: 2022-04-11 00:50:00 Z
 position: 5
 Project Subtitle: Art Direction
@@ -11,10 +11,10 @@ Images:
     Right Image: 
   Inset Image: 
 - Full Screen Image: "/uploads/LEISURE_PROJECT_2.png"
-- Full Screen Image: "/uploads/LEISURE_PROJECT_3.png"
+- 
 - Full Screen Image: "/uploads/LEISURE_PROJECT_4.gif"
 - Full Screen Image: "/uploads/LEISURE_PROJECT_5.png"
 layout: project
 ---
 
-I partnered with Leisure Project for the launch of their NFT, Leisure Creatures. Since then, I have been Art Directing for the beverage brand. I have been the lead designer and art director for everything from packaging to digital assets to photoshoots.
+I partnered with Leisure Project to launch their NFT, Leisure Creatures. Each Leisure Creature is one-of-a-kind based on its combination of characteristics. These JPEGs grant you membership to the Leisure Project Hydration Club which is a community building the world’s first co-created beverage brand, Leisure Project.
