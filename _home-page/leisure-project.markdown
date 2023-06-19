@@ -5,11 +5,6 @@ position: 5
 Project Subtitle: Art Direction
 Image: "/uploads/LEISURE_PROJECT_HERO.png"
 Images:
-- Full Screen Image: "/uploads/LEISURE_PROJECT_1.gif"
-  Grid:
-  - Left Image: 
-    Right Image: 
-  Inset Image: 
 - Full Screen Image: "/uploads/LEISURE_PROJECT_2.png"
 - 
 - Full Screen Image: "/uploads/LEISURE_PROJECT_4.gif"
